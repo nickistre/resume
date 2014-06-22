@@ -1,0 +1,37 @@
+{
+    "personal": {
+        "name": "Nicholas Istre",
+        "address": {
+            "address": [
+                "321 Gerald Dr."
+                ],
+            "city": "Lafayette",
+            "state": "LA",
+            "postal": "70503",
+            "country": "USA"
+        },
+        "contact": {
+            "phone": "262-204-7873",
+            "email": "nickistre@gmail.com"
+        }
+    },
+    "summary": "I am a programmer with a wide breadth of experience in server, network, and database administration. I look forward to learning and working with new technology to help customers to meet and exceed their needs.",
+    "experience": [
+        {
+            "complany": "Teamwork Solutions Group",
+            "position": "Senior Developer",
+            "location": "Lafayette, LA",
+            "dates": {
+                "start": "March 2009",
+                "end":   "Present"
+            },
+            "summary": "Built systems mainly using PHP and jQuery, and occasionally using Actionscript for web, desktop, and mobile applications.",
+            "accomplishments": [
+                "Finished a job-posting application using Adobe Flash for the web-accessible front end and AMFPHP for the backend.",
+                "Maintained an ad-delivery system, using Adobe Flex & AMFPHP, that allowed clients to submit video and image ads that ran on screens in various local businesses.",
+                "Heavily modified the above system to provide ad delivery to custom-built touchscreen headrests running Ubuntu that were to be place in taxis. Included setting up remote auto upgrading capabilities and stats and network tracking using BASH, Python, and C, and setting up OpenVPN to allow for secure access to the headrests while the taxis they were in were driving around town.",
+                "Building a system for use in evaluating nursing students, built in PHP using Zend Framework 1, Doctrine 2, and  jQuery for the website, and an Android tablet application written in Adobe Air and deployed using Adobe Air Mobile runtime. Much of my work involved building our own internal libraries that we could take from project to project, speeding up our development time of each subsequent project."
+            ]
+        }
+    ]
+}
