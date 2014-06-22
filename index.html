@@ -44,5 +44,43 @@
     </ul>
 </div>
 
+<div id="summary">
+    <h1>Summary</h1>
+    <p>{{resume.summary}}</p>
+</div>
+
+<div id="work-experience">
+    <h1>Work Experience</h1>
+    <div ng-repeat="work_experience in resume.work_experiences">
+        <h2>{{work_experience.position}}, {{work_experience.company}}</h2>
+        <h3>{{work_experience.location}}—{{work_experience.dates.start}}-{{work_experience.dates.end}}</h3>
+        <div class="work-experience-summary">{{work_experience.description}}</div>
+        <div class="work-experience-accomplishments">
+            <h4>Accomplishments</h4>
+            <ul>
+                <li ng-repeat="accomplishment in work_experience.accomplishments">{{accomplishment}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="awards">
+    <h1>Awards</h1>
+    <div ng-repeat="award in resume.awards">
+        <h2>{{award.title}}</h2>
+        <h3>{{award.issuer}}—{{award.date}}</h3>
+        <div class="award-description">{{award.description}}</div>
+    </div>
+</div>
+
+<div id="education">
+    <h1>Education</h1>
+    <div ng-repeat="education in resume.education">
+        <h2>{{education.school}}</h2>
+        <h3>{{education.degree}}—{{education.dates.start}}-{{education.dates.end}}</h3>
+        <div class="education-description">{{education.description}}</div>
+    </div>
+</div>
+
 </body>
 </html>

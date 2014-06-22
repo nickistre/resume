@@ -15,6 +15,7 @@
             "email": "nickistre@gmail.com"
         }
     },
+
     "skills": {
         "Programming Languages": {
             "PHP": [
@@ -57,23 +58,81 @@
             "CentOS": []
         }
     },
+
     "summary": "I am a programmer with a wide breadth of experience in server, network, and database administration. I look forward to learning and working with new technology to help customers to meet and exceed their needs.",
-    "experience": [
+
+    "work_experiences": [
         {
-            "complany": "Teamwork Solutions Group",
+            "company": "Teamwork Solutions Group",
             "position": "Senior Developer",
             "location": "Lafayette, LA",
             "dates": {
                 "start": "March 2009",
                 "end":   "Present"
             },
-            "summary": "Built systems mainly using PHP and jQuery, and occasionally using Actionscript for web, desktop, and mobile applications.",
+            "description": "Built systems mainly using PHP and jQuery, and occasionally using Actionscript for web, desktop, and mobile applications.",
             "accomplishments": [
                 "Finished a job-posting application using Adobe Flash for the web-accessible front end and AMFPHP for the backend.",
                 "Maintained an ad-delivery system, using Adobe Flex & AMFPHP, that allowed clients to submit video and image ads that ran on screens in various local businesses.",
                 "Heavily modified the above system to provide ad delivery to custom-built touchscreen headrests running Ubuntu that were to be place in taxis. Included setting up remote auto upgrading capabilities and stats and network tracking using BASH, Python, and C, and setting up OpenVPN to allow for secure access to the headrests while the taxis they were in were driving around town.",
                 "Building a system for use in evaluating nursing students, built in PHP using Zend Framework 1, Doctrine 2, and  jQuery for the website, and an Android tablet application written in Adobe Air and deployed using Adobe Air Mobile runtime. Much of my work involved building our own internal libraries that we could take from project to project, speeding up our development time of each subsequent project."
             ]
+        },
+        {
+            "company": "Rader Solutions",
+            "position": "Lead Web Developer",
+            "location": "Lafayette, LA",
+            "dates": {
+                "start": "December 2006",
+                "end"  : "December 2008"
+            },
+            "description": "Duties mainly involved maintaining and extending a custom-built PHP website that provided accounting, ordering, and invoicing service for a large construction supply company, which also included the administration of the PostgreSQL database and CentOS systems powering the site.",
+            "accomplishments": [
+                "Moved the codebase into a Subversion repository for better code maintenance.",
+                "mproved security and reusability of project parts.",
+                "Headed a team of five developers to expand the project.",
+                "Added a user authentication and security model using an LDAP connection to Windows 2003 Server Active Directory.",
+                "Optimized the data transfer code between the project and an accounting system running on an IBM AIX server.",
+                "Converted the project from PHP on a CentOS server with PostgresSQL to PHP running on a Windows Server with SQL Server 2005."
+            ]
+        },
+        {
+            "company": "Service Tool Company",
+            "position": "System Analyst",
+            "location": "New Iberia, LA",
+            "dates": {
+                "start": "May 2001",
+                "end"  : "December 2006"
+            },
+            "description": "Administrated a Windows-based network for an office of 50 employees. This included maintaining, upgrading, and building software applications for use by internal users and to facilitate communications with customers and vendors, encouraging and implementing user and internet security, and building queries and reports to provide critical information to the executive and sales staff.",
+            "accomplishments": [
+                "Moved the company’s primary database storage from Access 2000 to SQL Server.",
+                "Migrated the primary accounting and sales processing software from Great Plains Account (DOS-based) to Great Plains Dynamics 6.0 (Windows-based).",
+                "Developed an application that provided a way for internal processors to access faxes from remote sales staff in a paperless format.",
+                "Implemented and maintained an EDI system.",
+                "Utilized VMWare server to allow us to use virtualization to massively reduce the amount of time and money spent on physical servers, testing, and deployment of various systems."
+            ]
+        }
+    ],
+
+    "education": [
+        {
+            "school": "University of Louisiana at Lafayette",
+            "degree": "Bachelors of Science in Computer Science",
+            "dates": {
+                "start": "1997",
+                "end"  : "2001"
+            },
+            "description": "Graduated Magna Cum Laude with a 3.85 GPA. Member of the Honors Society and served as President of the Inline Hockey Club"
+        }
+    ],
+
+    "awards": [
+        {
+            "title": "Grand Prize Winning Team",
+            "issuer": "CajunCodeFest 3.0",
+            "date":  "April 2014",
+            "description": "The theme of the competition was \"Aging in Place\", and my team's winning solution was custom built hardware and software that would help elderly people live at home safely through the collection and communication of a person’s medical, social and environmental status. We had beat out 11 other teams (of up to 6 members) in the 28 hour competition to win the $10,000 prize"
         }
     ]
 }
