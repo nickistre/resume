@@ -3,46 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>My Resume</title>
-    <script src="bower_components/angular/angular.js" ></script>
+    <script src="bower_components/angular/angular.js"></script>
     <script src="js/controllers.js"></script>
 </head>
 <body ng-controller="resumeCtrl">
 
-    <div id="personal-info">
-        <div class="name">{{resume.personal.name}}</div>
-        <div class="address">
-            <div class=address-line" ng-repeat="address in resume.personal.address.address">
-                {{address}}
-            </div>
-            <div>
-                {{resume.personal.address.city}}, {{resume.personal.address.state}} {{resume.personal.address.postal}}
-            </div>
+<div id="personal-info">
+    <div class="name">{{resume.personal.name}}</div>
+    <div class="address">
+        <div class=address-line" ng-repeat="address in resume.personal.address.address">
+            {{address}}
         </div>
-        <ul class="contacts">
-            <li ng-repeat="(type, contact) in resume.personal.contact" class="contact">
-                {{contact}}
-            </li>
-        </ul>
+        <div>
+            {{resume.personal.address.city}}, {{resume.personal.address.state}} {{resume.personal.address.postal}}
+        </div>
     </div>
+    <ul class="contacts">
+        <li ng-repeat="(type, contact) in resume.personal.contact" class="contact">
+            {{contact}}
+        </li>
+    </ul>
+</div>
 
-    <div id="skills">
-        <h1>Skills</h1>
-        <ul>
-            <li ng-repeat="(heading, skills) in resume.skills">
-                <span class="domain">{{heading}}</span>
-                <ul>
-                    <li ng-repeat="(skill, subskills) in skills">
-                        <span class="skill">{{skill}}</span>
-                        <ul>
-                            <li ng-repeat="subskill in subskills">
-                                <span class="subskill">{{subskill}}</span>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+<div id="skills">
+    <h1>Skills</h1>
+    <ul>
+        <li ng-repeat="(heading, skills) in resume.skills">
+            <span class="domain">{{heading}}</span>
+            <ul>
+                <li ng-repeat="(skill, subskills) in skills">
+                    <span class="skill">{{skill}}</span>
+                    <ul>
+                        <li ng-repeat="subskill in subskills">
+                            <span class="subskill">{{subskill}}</span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
 
 </body>
 </html>
