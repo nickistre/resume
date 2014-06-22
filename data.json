@@ -15,6 +15,48 @@
             "email": "nickistre@gmail.com"
         }
     },
+    "skills": {
+        "Programming Languages": {
+            "PHP": [
+                "Zend Framework 1",
+                "Doctrine 2",
+                "Joomla",
+                "AMFPHP",
+                "Drupal",
+                "Horde"
+            ],
+            "Javascript": [
+                "jQuery",
+                "jQuery UI",
+                "DataTables"
+            ],
+            "ActionScript": [
+                "Flash/Flex"
+            ],
+            "Python": [],
+            "C/C++": [
+                "Arduino"
+            ],
+            "BASH": [],
+            "Visual Basic": []
+        },
+        "Version Control": {
+            "Mercurial": [],
+            "Git": [],
+            "Subversion": []
+        },
+        "Databases": {
+            "PostgreSQL": [],
+            "MySQL": [],
+            "SQL Server": [],
+            "Pervasive.SQL": []
+        },
+        "Linux Distributions": {
+            "Ubuntu": [],
+            "Debian": [],
+            "CentOS": []
+        }
+    },
     "summary": "I am a programmer with a wide breadth of experience in server, network, and database administration. I look forward to learning and working with new technology to help customers to meet and exceed their needs.",
     "experience": [
         {
