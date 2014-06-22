@@ -2,11 +2,20 @@
 <html lang="en" ng-app="resumeApp">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>My Resume</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen,print">
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
     <script src="bower_components/angular/angular.js"></script>
     <script src="js/controllers.js"></script>
 </head>
 <body ng-controller="resumeCtrl">
+
 
 <div id="personal-info">
     <div class="name">{{resume.personal.name}}</div>
@@ -25,61 +34,66 @@
     </ul>
 </div>
 
-<div id="skills">
-    <h1>Skills</h1>
-    <ul>
-        <li ng-repeat="(heading, skills) in resume.skills">
-            <span class="domain">{{heading}}</span>
-            <ul>
-                <li ng-repeat="(skill, subskills) in skills">
-                    <span class="skill">{{skill}}</span>
-                    <ul>
-                        <li ng-repeat="subskill in subskills">
-                            <span class="subskill">{{subskill}}</span>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-    </ul>
+<div class="col-md-4">
+    <div id="skills">
+        <h1>Skills</h1>
+        <ul>
+            <li ng-repeat="(heading, skills) in resume.skills">
+                <span class="domain">{{heading}}</span>
+                <ul>
+                    <li ng-repeat="(skill, subskills) in skills">
+                        <span class="skill">{{skill}}</span>
+                        <ul>
+                            <li ng-repeat="subskill in subskills">
+                                <span class="subskill">{{subskill}}</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 </div>
 
-<div id="summary">
-    <h1>Summary</h1>
-    <p>{{resume.summary}}</p>
-</div>
+<div class="col-md-8">
+    <div id="summary">
+        <h1>Summary</h1>
+        <p>{{resume.summary}}</p>
+    </div>
 
-<div id="work-experience">
-    <h1>Work Experience</h1>
-    <div ng-repeat="work_experience in resume.work_experiences">
-        <h2>{{work_experience.position}}, {{work_experience.company}}</h2>
-        <h3>{{work_experience.location}}—{{work_experience.dates.start}}-{{work_experience.dates.end}}</h3>
-        <div class="work-experience-summary">{{work_experience.description}}</div>
-        <div class="work-experience-accomplishments">
-            <h4>Accomplishments</h4>
-            <ul>
-                <li ng-repeat="accomplishment in work_experience.accomplishments">{{accomplishment}}</li>
-            </ul>
+    <div id="work-experience">
+        <h1>Work Experience</h1>
+        <div ng-repeat="work_experience in resume.work_experiences">
+            <h2>{{work_experience.position}}, {{work_experience.company}}</h2>
+            <h3>{{work_experience.location}}—{{work_experience.dates.start}}-{{work_experience.dates.end}}</h3>
+            <div class="work-experience-summary">{{work_experience.description}}</div>
+            <div class="work-experience-accomplishments">
+                <h4>Accomplishments</h4>
+                <ul>
+                    <li ng-repeat="accomplishment in work_experience.accomplishments">{{accomplishment}}</li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
 
-<div id="awards">
-    <h1>Awards</h1>
-    <div ng-repeat="award in resume.awards">
-        <h2>{{award.title}}</h2>
-        <h3>{{award.issuer}}—{{award.date}}</h3>
-        <div class="award-description">{{award.description}}</div>
+    <div id="awards">
+        <h1>Awards</h1>
+        <div ng-repeat="award in resume.awards">
+            <h2>{{award.title}}</h2>
+            <h3>{{award.issuer}}—{{award.date}}</h3>
+            <div class="award-description">{{award.description}}</div>
+        </div>
     </div>
-</div>
 
-<div id="education">
-    <h1>Education</h1>
-    <div ng-repeat="education in resume.education">
-        <h2>{{education.school}}</h2>
-        <h3>{{education.degree}}—{{education.dates.start}}-{{education.dates.end}}</h3>
-        <div class="education-description">{{education.description}}</div>
+    <div id="education">
+        <h1>Education</h1>
+        <div ng-repeat="education in resume.education">
+            <h2>{{education.school}}</h2>
+            <h3>{{education.degree}}—{{education.dates.start}}-{{education.dates.end}}</h3>
+            <div class="education-description">{{education.description}}</div>
+        </div>
     </div>
+
 </div>
 
 </body>
