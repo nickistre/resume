@@ -7,6 +7,7 @@
 
     <title>My Resume</title>
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen,print">
+    <link href="css/style.css" rel="stylesheet" media="screen,print">
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -19,22 +20,27 @@
 
 <div id="personal-info">
     <div class="name">{{resume.personal.name}}</div>
-    <div class="address">
-        <div class=address-line" ng-repeat="address in resume.personal.address.address">
-            {{address}}
-        </div>
-        <div>
-            {{resume.personal.address.city}}, {{resume.personal.address.state}} {{resume.personal.address.postal}}
+    <div class="contents">
+        <div class="address">
+            <div class=address-line" ng-repeat="address in resume.personal.address.address">
+                {{address}}
+            </div>
+            <div>
+                {{resume.personal.address.city}}, {{resume.personal.address.state}} {{resume.personal.address.postal}}
+            </div>
         </div>
     </div>
-    <ul class="contacts">
-        <li ng-repeat="(type, contact) in resume.personal.contact" class="contact">
-            {{contact}}
-        </li>
-    </ul>
 </div>
 
 <div class="col-md-4">
+    <div id="contact">
+        <h1>Contacts</h1>
+        <ul>
+            <li ng-repeat="(type, contact) in resume.personal.contact" class="contact">
+                {{contact}}
+            </li>
+        </ul>
+    </div>
     <div id="skills">
         <h1>Skills</h1>
         <ul>
