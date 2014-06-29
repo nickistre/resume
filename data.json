@@ -29,7 +29,9 @@
             "Javascript": [
                 "jQuery",
                 "jQuery UI",
-                "DataTables"
+                "DataTables",
+                "Sencha Touch",
+                "PhoneGap/Cordova"
             ],
             "ActionScript": [
                 "Flash/Flex",
@@ -71,7 +73,7 @@
                 "start": "March 2009",
                 "end":   "Present"
             },
-            "description": "Built systems mainly using PHP and jQuery, and occasionally using Actionscript for web, desktop, and mobile applications.",
+            "description": "Built systems mainly using PHP, JavaScript, and Actionscript for web, desktop, and mobile applications.",
             "accomplishments": [
                 "Finished a job-posting application using Adobe Flash for the web-accessible front end and AMFPHP for the backend.",
                 "Maintained an ad-delivery system, using Adobe Flex & AMFPHP, that allowed clients to submit video and image ads that ran on screens in various local businesses.",
