@@ -1,6 +1,17 @@
 
 body {
     width: 900px;
+    page-break-inside: auto;
+}
+
+.page-header {
+    position: inherit;
+    display: table-header-group;
+}
+
+.page-main {
+    display: table-row-group;
+    margin-top: 0;
 }
 
 /*

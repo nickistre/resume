@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="resumeApp">
+<html lang="en" ng-app="resumeApp" ng-controller="resumeCtrl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>My Resume</title>
+    <title>{{resume.personal.name}}</title>
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="all">
     <link href="css/style.css" rel="stylesheet" media="all">
     <link href="css/style.print.css" rel="stylesheet" media="print">
@@ -16,10 +16,10 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="js/controllers.js"></script>
 </head>
-<body ng-controller="resumeCtrl">
+<body>
 
 
-<div class="col-md-12 col-print-12">
+<div class="col-md-12 col-print-12 page-header">
     <div id="personal-info" class="section-one-page">
         <div class="name">{{resume.personal.name}}</div>
         <div class="contents">
@@ -30,80 +30,82 @@
                 <div>
                     {{resume.personal.address.city}}, {{resume.personal.address.state}} {{resume.personal.address.postal}}
                 </div>
+                <div>
+                    {{resume.personal.address.country}}
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="col-md-3 col-print-3">
-    <div id="contact" class="section-one-page">
-        <h1>Contact Info</h1>
-        <ul>
-            <li ng-repeat="(type, contact) in resume.personal.contact" class="contact">
-                {{contact}}
-            </li>
-        </ul>
-    </div>
-    <div id="skills" class="section-multi-pages">
-        <h1>Skills</h1>
-        <ul>
-            <li ng-repeat="(heading, skills) in resume.skills" class="section-one-page">
-                <span class="domain">{{heading}}</span>
+<div class="col-md-12 col-print-12 page-main">
+    <div class="col-md-3 col-print-3">
+        <div id="contacts" class="section-one-page">
+            <h1>Contact Info</h1>
+            <ul>
+                <li ng-repeat="(type, contact) in resume.personal.contact" class="contact">
+                    {{contact}}
+                </li>
+            </ul>
+        </div>
+        <div id="skills" class="section-multi-pages">
+            <h1>Skills</h1>
+            <div ng-repeat="(heading, skills) in resume.skills" class="section-one-page domain">
+                <h2>{{heading}}</h2>
                 <ul>
-                    <li ng-repeat="(skill, subskills) in skills">
-                        <span class="skill">{{skill}}</span>
+                    <li ng-repeat="(skill, subskills) in skills" class="skill">
+                        <h3>{{skill}}</h3>
                         <ul>
-                            <li ng-repeat="subskill in subskills">
-                                <span class="subskill">{{subskill}}</span>
+                            <li ng-repeat="subskill in subskills" class="subskill">
+                                {{subskill}}
                             </li>
                         </ul>
                     </li>
                 </ul>
-            </li>
-        </ul>
-    </div>
-</div>
-
-<div class="col-md-9 col-print-9 col-print-right">
-    <div id="summary" class="section-one-page">
-        <h1>Summary</h1>
-        <p>{{resume.summary}}</p>
-    </div>
-
-    <div id="work-experience" class="section-multi-pages">
-        <h1>Work Experience</h1>
-        <div ng-repeat="work_experience in resume.work_experiences" class="section-one-page">
-            <h2>{{work_experience.position}}, {{work_experience.company}}</h2>
-            <h3>{{work_experience.location}}—{{work_experience.dates.start}}-{{work_experience.dates.end}}</h3>
-            <div class="work-experience-summary">{{work_experience.description}}</div>
-            <div class="work-experience-accomplishments">
-                <h4>Accomplishments</h4>
-                <ul>
-                    <li ng-repeat="accomplishment in work_experience.accomplishments">{{accomplishment}}</li>
-                </ul>
             </div>
         </div>
     </div>
 
-    <div id="awards" class="section-multi-pages">
-        <h1>Awards</h1>
-        <div ng-repeat="award in resume.awards" class="section-one-page">
-            <h2>{{award.title}}</h2>
-            <h3>{{award.issuer}}—{{award.date}}</h3>
-            <div class="award-description">{{award.description}}</div>
+    <div class="col-md-9 col-print-9 col-print-right">
+        <div id="summary" class="section-one-page">
+            <h1>Summary</h1>
+            <p>{{resume.summary}}</p>
         </div>
-    </div>
 
-    <div id="education" class="section-multi-pages">
-        <h1>Education</h1>
-        <div ng-repeat="education in resume.education" class="section-one-page">
-            <h2>{{education.school}}</h2>
-            <h3>{{education.degree}}—{{education.dates.start}}-{{education.dates.end}}</h3>
-            <div class="education-description">{{education.description}}</div>
+        <div id="work-experience" class="section-multi-pages">
+            <h1>Work Experience</h1>
+            <div ng-repeat="work_experience in resume.work_experiences" class="section-one-page">
+                <h2>{{work_experience.position}}, {{work_experience.company}}</h2>
+                <h3>{{work_experience.location}}—{{work_experience.dates.start}}-{{work_experience.dates.end}}</h3>
+                <div class="work-experience-summary">{{work_experience.description}}</div>
+                <div class="work-experience-accomplishments">
+                    <h4>Accomplishments</h4>
+                    <ul>
+                        <li ng-repeat="accomplishment in work_experience.accomplishments">{{accomplishment}}</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
 
+        <div id="awards" class="section-multi-pages">
+            <h1>Awards</h1>
+            <div ng-repeat="award in resume.awards" class="section-one-page">
+                <h2>{{award.title}}</h2>
+                <h3>{{award.issuer}}—{{award.date}}</h3>
+                <div class="award-description">{{award.description}}</div>
+            </div>
+        </div>
+
+        <div id="education" class="section-multi-pages">
+            <h1>Education</h1>
+            <div ng-repeat="education in resume.education" class="section-one-page">
+                <h2>{{education.school}}</h2>
+                <h3>{{education.degree}}—{{education.dates.start}}-{{education.dates.end}}</h3>
+                <div class="education-description">{{education.description}}</div>
+            </div>
+        </div>
+
+    </div>
 </div>
-
 </body>
 </html>

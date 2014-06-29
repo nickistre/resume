@@ -32,7 +32,8 @@
                 "DataTables"
             ],
             "ActionScript": [
-                "Flash/Flex"
+                "Flash/Flex",
+                "Air Mobile"
             ],
             "Python": [],
             "C/C++": [

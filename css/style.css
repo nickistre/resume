@@ -1,3 +1,25 @@
+h1 {
+    font-variant: small-caps;
+    font-size: 30px;
+    font-weight: bold;
+    /* For some reason, I had to add !important for Firefox, else headers show as black */
+    color: darkblue !important;
+}
+
+.page-header {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.page-main {
+    margin-top: 126px;
+}
+
 #personal-info {
     text-align: center;
     padding-bottom: 10px;
@@ -15,12 +37,27 @@
     text-align: left;
 }
 
-#personal-info ul.contacts {
-    list-style: none;
-    list-style-type: none;
-    padding-left: 0;
+#skills h2 {
+    font-size: 20px;
+    font-weight: bolder;
 }
 
-#personal-info ul.contacts li {
-    margin-top: 10px;
+#skills div {
+    padding-left: 10px;
+}
+
+#skills ul {
+    margin-bottom: 0;
+}
+
+#skills h3 {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#skills .skill ul {
+    list-style-type: none;
+    padding-left: 10px;
+    font-style: italic;
 }
