@@ -4,6 +4,32 @@ body {
 }
 
 /*
+ * Keep contents of container on same page on print, moving the whole section to the next page if needed.
+ */
+.section-one-page {
+    page-break-inside: avoid;
+}
+
+/*
+ * Setup multi-page sections, where the header will be repeated on every page if the section spills
+ * over to the next page.
+ *
+ * Note that the table-header-group and table-row-group declarations are not supported in Chrome.
+ * Link: http://stackoverflow.com/a/8356996/1946899
+ */
+.section-multi-pages {
+    page-break-inside: auto;
+}
+
+.section-multi-pages h1 {
+    display: table-header-group;
+}
+
+.section-multi-pages .section-one-page {
+    display: table-row-group;
+}
+
+/*
  * Define .col-print-* classes to work with print layout.
  */
 
