@@ -10,10 +10,14 @@ h1 {
     margin: 0;
     border: 0;
     padding: 0;
+    border-bottom: mediumblue solid thick;
     position: fixed;
     z-index: 9999;
     width: 100%;
     background-color: #ffffff;
+    height: 126px;
+    top: 0;
+    text-align: center;
 }
 
 .page-main {
@@ -23,7 +27,7 @@ h1 {
 #personal-info {
     text-align: center;
     padding-bottom: 10px;
-    border-bottom: mediumblue solid thick;
+    width: 100%;
 }
 
 #personal-info .name {

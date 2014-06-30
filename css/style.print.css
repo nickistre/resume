@@ -5,12 +5,12 @@ body {
 }
 
 .page-header {
-    position: inherit;
-    display: table-header-group;
+    position: relative;
+    /*display: table-header-group;*/
 }
 
 .page-main {
-    display: table-row-group;
+    /*display: table-row-group;*/
     margin-top: 0;
 }
 
