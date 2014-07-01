@@ -16,3 +16,4 @@ TODO:
 * General cleanup of the code and CSS styles.
 * Add different styles and create a way to change between them.
 * Setup code and data to allow customizations of the resume based on industry/company being sent to.
+* Learn how to organize the code in a more AngularJS "way", I.E., see about separating views and controllers and have them dynamically load in based on the json data.
