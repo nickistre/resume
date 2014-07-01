@@ -4,6 +4,23 @@ h1 {
     font-weight: bold;
     /* For some reason, I had to add !important for Firefox, else headers show as black */
     color: darkblue !important;
+    margin-top: 0;
+}
+
+/* Make sure margins are set for each main secton for both screen and print */
+.section-main {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4, h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .page-header {

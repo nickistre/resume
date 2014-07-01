@@ -137,5 +137,16 @@
             "date":  "April 2014",
             "description": "The theme of the competition was \"Aging in Place\", and my team's winning solution was custom built hardware and software that would help elderly people live at home safely through the collection and communication of a person’s medical, social and environmental status. We had beat out 11 other teams (of up to 6 members) in the 28 hour competition to win the $10,000 prize"
         }
+    ],
+
+    "organizations": [
+        {
+            "position": "Organizer",
+            "organization": "Acadiana Open Source Group",
+            "dates": {
+                "start": "May 2014",
+                "end"  : "Present"
+            }
+        }
     ]
 }

@@ -40,7 +40,7 @@
 
 <div class="col-md-12 col-print-12 page-main">
     <div class="col-md-3 col-print-3">
-        <div id="contacts" class="section-one-page">
+        <div id="contacts" class="section-one-page section-main">
             <h1>Contact Info</h1>
             <ul>
                 <li ng-repeat="(type, contact) in resume.personal.contact" class="contact">
@@ -67,12 +67,12 @@
     </div>
 
     <div class="col-md-9 col-print-9 col-print-right">
-        <div id="summary" class="section-one-page">
+        <div id="summary" class="section-one-page section-main">
             <h1>Summary</h1>
             <p>{{resume.summary}}</p>
         </div>
 
-        <div id="work-experience" class="section-multi-pages">
+        <div id="work-experience" class="section-multi-pages section-main">
             <h1>Work Experience</h1>
             <div ng-repeat="work_experience in resume.work_experiences" class="section-one-page">
                 <h2>{{work_experience.position}}, {{work_experience.company}}</h2>
@@ -87,7 +87,7 @@
             </div>
         </div>
 
-        <div id="awards" class="section-multi-pages">
+        <div id="awards" class="section-multi-pages section-main">
             <h1>Awards</h1>
             <div ng-repeat="award in resume.awards" class="section-one-page">
                 <h2>{{award.title}}</h2>
@@ -96,12 +96,20 @@
             </div>
         </div>
 
-        <div id="education" class="section-multi-pages">
+        <div id="education" class="section-multi-pages section-main">
             <h1>Education</h1>
             <div ng-repeat="education in resume.education" class="section-one-page">
                 <h2>{{education.school}}</h2>
                 <h3>{{education.degree}}—{{education.dates.start}}-{{education.dates.end}}</h3>
                 <div class="education-description">{{education.description}}</div>
+            </div>
+        </div>
+
+        <div id="organizations" class="section-multi-pages section-main">
+            <h1>Organizations</h1>
+            <div ng-repeat="organization in resume.organizations" class="section-onepage">
+                <h2>{{organization.position}}, {{organization.organization}}</h2>
+                <h3>{{organization.dates.start}}-{{organization.dates.end}}</h3>
             </div>
         </div>
 
