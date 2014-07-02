@@ -24,7 +24,6 @@ h4, h5 {
 }
 
 #resume-header {
-    margin: 0;
     border: 0;
     padding: 0;
     border-bottom: mediumblue solid thick;
@@ -84,6 +83,7 @@ h4, h5 {
     #resume-header {
         position: static;
         height: auto;
+        width: auto;
     }
 
     #resume-body {
