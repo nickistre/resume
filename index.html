@@ -59,9 +59,9 @@
     </div>
 
     <div class="col-sm-3 col-print-3">
-        <div id="skills" class="section-multi-pages section-main container">
-            <h1 class="row">Skills</h1>
-            <div ng-repeat="(heading, skills) in resume.skills" class="section-one-page domain row">
+        <div id="skills" class="section-multi-pages section-main">
+            <h1>Skills</h1>
+            <div ng-repeat="(heading, skills) in resume.skills" class="section-one-page domain">
                 <h2>{{heading}}</h2>
                 <div ng-repeat="(skill, subskills) in skills" class="skill col-xs-6 col-sm-12 col-print-12">
                     <h3>{{skill}}</h3>

@@ -11,6 +11,7 @@ h1 {
 .section-main {
     margin-top: 20px;
     margin-bottom: 10px;
+    clear: both;
 }
 
 h2, h3 {
