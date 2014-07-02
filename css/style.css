@@ -34,7 +34,6 @@ h4, h5 {
     background-color: #ffffff;
     height: 126px;
     top: 0;
-    text-align: center;
 }
 
 .page-main {
@@ -42,20 +41,12 @@ h4, h5 {
 }
 
 #personal-info {
-    text-align: center;
     padding-bottom: 10px;
-    width: 100%;
 }
 
 #personal-info .name {
     font-size: 36px;
     font-weight: bold;
-}
-
-#personal-info .contents {
-    display: inline-block;
-    width: auto;
-    text-align: left;
 }
 
 #skills h2 {
@@ -81,4 +72,16 @@ h4, h5 {
     list-style-type: none;
     padding-left: 10px;
     font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .page-header {
+        position: static;
+        height: auto;
+    }
+
+    .page-main {
+        margin-top: 0;
+    }
+
 }

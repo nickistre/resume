@@ -16,39 +16,45 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="js/controllers.js"></script>
 </head>
-<body>
+<body class=".container-fluid">
 
 
 <div class="page-header">
     <div id="personal-info" class="section-one-page">
-        <div class="name">{{resume.personal.name}}</div>
-        <div class="contents">
-            <div class="address">
-                <div class="address-line" ng-repeat="address in resume.personal.address.address">
-                    {{address}}
-                </div>
-                <div>
-                    {{resume.personal.address.city}}, {{resume.personal.address.state}} {{resume.personal.address.postal}}
-                </div>
-                <div>
-                    {{resume.personal.address.country}}
+
+        <div class="col-sm-9 col-md-10 col-print-10">
+            <div class="name text-left">{{resume.personal.name}}</div>
+
+            <div id="address" class="text-left">
+                <div class="address">
+                    <div class="address-line" ng-repeat="address in resume.personal.address.address">
+                        {{address}}
+                    </div>
+                    <div>
+                        {{resume.personal.address.city}}, {{resume.personal.address.state}} {{resume.personal.address.postal}}
+                    </div>
+                    <div>
+                        {{resume.personal.address.country}}
+                    </div>
                 </div>
             </div>
         </div>
+
+
+        <div id="contacts" class="col-sm-1 col-print-1" >
+            <div ng-repeat="(type, contact) in resume.personal.contact" class="contact">
+                {{contact}}
+            </div>
+        </div>
+
+
     </div>
 </div>
 
-<div class="col-md-12 col-print-12 page-main">
-    <div class="col-md-3 col-print-3">
-        <div id="contacts" class="section-one-page section-main">
-            <h1>Contact Info</h1>
-            <ul>
-                <li ng-repeat="(type, contact) in resume.personal.contact" class="contact">
-                    {{contact}}
-                </li>
-            </ul>
-        </div>
-        <div id="skills" class="section-multi-pages">
+<div class="col-sm-12 col-print-12 page-main">
+
+    <div class="col-sm-3 col-print-3">
+        <div id="skills" class="section-multi-pages section-main">
             <h1>Skills</h1>
             <div ng-repeat="(heading, skills) in resume.skills" class="section-one-page domain">
                 <h2>{{heading}}</h2>
@@ -66,7 +72,7 @@
         </div>
     </div>
 
-    <div class="col-md-9 col-print-9 col-print-right">
+    <div class="col-sm-9 col-print-9 col-print-right">
         <div id="summary" class="section-one-page section-main">
             <h1>Summary</h1>
             <p>{{resume.summary}}</p>
