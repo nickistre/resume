@@ -19,7 +19,7 @@
 <body class=".container-fluid">
 
 
-<div class="page-header row">
+<div id="resume-header" class="row">
     <div id="personal-info" class="section-one-page">
 
         <div class="col-sm-9 col-md-10 col-print-10">
@@ -42,7 +42,7 @@
 
 
         <div id="contacts" class="col-sm-1 col-print-1" >
-            <div ng-repeat="(type, contact) in resume.personal.contact" class="contact">
+            <div ng-repeat="contact in resume.personal.contacts" class="contact">
                 {{contact}}
             </div>
         </div>

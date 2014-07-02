@@ -4,7 +4,7 @@ body {
     page-break-inside: auto;
 }
 
-.page-header {
+#resume-header {
     position: relative;
     /*display: table-header-group;*/
 }

@@ -23,7 +23,7 @@ h4, h5 {
     margin-bottom: 5px;
 }
 
-.page-header {
+#resume-header {
     margin: 0;
     border: 0;
     padding: 0;
@@ -75,7 +75,7 @@ h4, h5 {
 }
 
 @media (max-width: 768px) {
-    .page-header {
+    #resume-header {
         position: static;
         height: auto;
     }

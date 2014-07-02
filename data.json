@@ -10,10 +10,10 @@
             "postal": "70503",
             "country": "USA"
         },
-        "contact": {
-            "phone": "262-204-7873",
-            "email": "nickistre@gmail.com"
-        }
+        "contacts": [
+            "262-204-7873",
+            "nickistre@gmail.com"
+        ]
     },
 
     "skills": {
