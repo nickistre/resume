@@ -70,6 +70,17 @@
         }
     },
 
+    "code_samples": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/nickistre"
+        },
+        {
+            "name": "Bitbucket",
+            "url": "https://bitbucket.org/nickistre"
+        }
+    ],
+
     "work_experiences": [
         {
             "company": "Teamwork Solutions Group",

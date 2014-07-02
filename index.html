@@ -73,6 +73,18 @@
                 </div>
             </div>
         </div>
+
+        <div id="code_samples" class="section-one-page section-main">
+            <h1>Code Samples</h1>
+            <div ng-repeat="code_sample in resume.code_samples" class="code_sample">
+                <h2 class="hidden-print"><a ng-href="{{code_sample.url}}">{{code_sample.name}}</a></h2>
+                <div class="visible-print hidden-xs hidden-sm hidden-md hidden-lg">
+                    <h2>{{code_sample.name}}</h2>
+                    <span class="code_sample_url">{{code_sample.url}}</span>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <div class="col-sm-9 col-print-9 col-print-right">
