@@ -1,4 +1,8 @@
 {
+    "general": {
+        "url": "http://resume.nickistre.net",
+        "source_url": "https://github.com/nickistre/resume-angularJS-bootstrap"
+    },
     "personal": {
         "name": "Nicholas Istre",
         "address": {

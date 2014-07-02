@@ -40,6 +40,12 @@ h4, h5 {
     margin-top: 126px;
 }
 
+#resume-footer {
+    border-top: mediumblue solid medium;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 #personal-info {
     padding-bottom: 10px;
 }
