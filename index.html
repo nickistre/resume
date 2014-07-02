@@ -19,7 +19,7 @@
 <body class=".container-fluid">
 
 
-<div class="page-header">
+<div class="page-header row">
     <div id="personal-info" class="section-one-page">
 
         <div class="col-sm-9 col-md-10 col-print-10">
@@ -53,6 +53,11 @@
 
 <div class="col-sm-12 col-print-12 page-main">
 
+    <div id="summary" class="section-one-page section-main visible-xs-block hidden-sm hidden-md hidden-lg hidden-print">
+        <h1>Summary</h1>
+        <p>{{resume.summary}}</p>
+    </div>
+
     <div class="col-sm-3 col-print-3">
         <div id="skills" class="section-multi-pages section-main">
             <h1>Skills</h1>
@@ -73,7 +78,7 @@
     </div>
 
     <div class="col-sm-9 col-print-9 col-print-right">
-        <div id="summary" class="section-one-page section-main">
+        <div id="summary" class="section-one-page section-main hidden-xs">
             <h1>Summary</h1>
             <p>{{resume.summary}}</p>
         </div>
