@@ -36,7 +36,7 @@ h4, h5 {
     top: 0;
 }
 
-.page-main {
+#resume-body {
     margin-top: 126px;
 }
 
@@ -80,7 +80,7 @@ h4, h5 {
         height: auto;
     }
 
-    .page-main {
+    #resume-body {
         margin-top: 0;
     }
 
