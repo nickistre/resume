@@ -59,11 +59,12 @@ h4, h5 {
     font-weight: bolder;
 }
 
-#skills div {
+#skills .domain {
     padding-left: 10px;
 }
 
-#skills ul {
+#skills .skill {
+    padding-left: 10px;
     margin-bottom: 0;
 }
 
@@ -75,8 +76,12 @@ h4, h5 {
 
 #skills .skill ul {
     list-style-type: none;
-    padding-left: 10px;
+    padding-left: 15px;
+}
+
+#skills .skill .subskill {
     font-style: italic;
+    font-size: 12px;
 }
 
 @media (max-width: 768px) {
@@ -90,4 +95,11 @@ h4, h5 {
         margin-top: 0;
     }
 
+    #skills .domain{
+        vertical-align: top;
+    }
+
+    #skills .skill {
+        display: inline-block;
+    }
 }
