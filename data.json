@@ -1,7 +1,9 @@
 {
     "general": {
         "url": "http://resume.nickistre.net",
-        "source_url": "https://github.com/nickistre/resume-angularJS-bootstrap"
+        "url_text": "http://resume.nickistre.net",
+        "source_url": "https://github.com/nickistre/resume-angularJS-bootstrap",
+        "source_url_text": "GitHub"
     },
     "personal": {
         "name": "Nicholas Istre",

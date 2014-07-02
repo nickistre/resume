@@ -53,7 +53,7 @@
 
 <div id="resume-body" class="row">
 
-    <div id="summary-mobile" class="section-one-page col-xs-12 section-main visible-xs-block hidden-sm hidden-md hidden-lg hidden-print">
+    <div id="summary-mobile" class="section-one-page col-xs-12 section-main visible-xs hidden-sm hidden-md hidden-lg hidden-print">
         <h1>Summary</h1>
         <p>{{resume.summary}}</p>
     </div>
@@ -128,10 +128,17 @@
 </div>
 
 <div id="resume-footer" class="row" >
-    <div class="col-sm-12 col-print-12 text-center">
-        <p>
-            <span>Updated resume is available at <a ng-href="{{resume.general.url}}">{{resume.general.url}}</a></span>
-        </p>
+    <div class="col-sm-12 col-print-12 text-center section-one-page">
+
+        <div class="hidden-print" >
+            <span>Source: <a ng-href="{{resume.general.source_url}}">{{resume.general.source_url_text}}</a></span>
+        </div>
+
+        <div class="visible-print hidden-xs hidden-sm hidden-md hidden-lg">
+            <div>Current Résumé/CV URL: {{resume.general.url}}</div>
+            <div>Source URL: {{resume.general.source_url}}</div>
+        </div>
+
     </div>
 </div>
 
