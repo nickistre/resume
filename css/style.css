@@ -59,26 +59,31 @@ h4, h5 {
 #code-samples h2 {
     font-size: 20px;
     font-weight: bolder;
+    margin-bottom: 5px;
 }
 
 #skills .domain {
     padding-left: 10px;
+    clear: both;
+    padding-top: 10px;
 }
 
 #skills .skill {
     padding-left: 10px;
     margin-bottom: 0;
+    margin-top: 5px;
 }
 
 #skills h3 {
     font-size: 16px;
-    margin-top: 5px;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
 #skills .skill ul {
     list-style-type: none;
     padding-left: 15px;
+    margin-bottom: 0;
 }
 
 #skills .skill .subskill {
