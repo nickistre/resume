@@ -22,6 +22,8 @@
         ]
     },
 
+    "summary": "I am a programmer with a wide breadth of experience in server, network, and database administration. I look forward to learning and working with new technology to help customers to meet and exceed their needs.",
+
     "skills": {
         "Programming Languages": {
             "PHP": [
@@ -67,8 +69,6 @@
             "CentOS": []
         }
     },
-
-    "summary": "I am a programmer with a wide breadth of experience in server, network, and database administration. I look forward to learning and working with new technology to help customers to meet and exceed their needs.",
 
     "work_experiences": [
         {
