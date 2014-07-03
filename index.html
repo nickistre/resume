@@ -22,9 +22,9 @@
 <div id="resume-header" class="container-fluid">
     <div id="personal-info" class="section-one-page row">
 
-        <div class="name text-left col-sm-12 text-center">{{resume.personal.name}}</div>
+        <div class="name text-left col-sm-12 col-print-12 text-center">{{resume.personal.name}}</div>
 
-        <div id="address" class="col-sm-12 text-center">
+        <div id="address" class="col-sm-12 col-print-12 text-center">
             <div class="address">
                 <span class="address-line" ng-repeat="address in resume.personal.address.address">
                     {{address}} -
@@ -36,7 +36,7 @@
             </div>
         </div>
 
-        <div id="contacts" class="col-sm-12 col-print-2 text-center" >
+        <div id="contacts" class="col-sm-12 col-print-12 text-center" >
             <span ng-repeat="contact in resume.personal.contacts" class="contact">
                 <span ng-if="!$first"> - </span>
                 {{contact}}
