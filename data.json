@@ -33,9 +33,9 @@
                     "subskills": [
                         "Zend Framework 1",
                         "Doctrine 2",
+                        "Drupal",
                         "Joomla",
                         "AMFPHP",
-                        "Drupal",
                         "Horde"
                     ]
                 },
@@ -116,6 +116,18 @@
                 },
                 {
                     "skill": "CentOS"
+                }
+            ]
+        },
+        {
+            "domain": "Other",
+            "skills": [
+                {
+                    "skill": "Virtualization",
+                    "subskills": [
+                        "VirtualBox",
+                        "VMWare"
+                    ]
                 }
             ]
         }
