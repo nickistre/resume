@@ -19,34 +19,28 @@
 <body class="container-fluid">
 
 
-<div id="resume-header" class="row">
-    <div id="personal-info" class="section-one-page">
+<div id="resume-header" class="container-fluid">
+    <div id="personal-info" class="section-one-page row">
 
-        <div class="col-sm-9 col-md-10 col-print-10">
-            <div class="name text-left">{{resume.personal.name}}</div>
+        <div class="name text-left col-sm-12 text-center">{{resume.personal.name}}</div>
 
-            <div id="address" class="text-left">
-                <div class="address">
-                    <div class="address-line" ng-repeat="address in resume.personal.address.address">
-                        {{address}}
-                    </div>
-                    <div>
-                        {{resume.personal.address.city}}, {{resume.personal.address.state}} {{resume.personal.address.postal}}
-                    </div>
-                    <div>
-                        {{resume.personal.address.country}}
-                    </div>
-                </div>
+        <div id="address" class="col-sm-12 text-center">
+            <div class="address">
+                <span class="address-line" ng-repeat="address in resume.personal.address.address">
+                    {{address}} -
+                </span>
+                {{resume.personal.address.city}} -
+                {{resume.personal.address.state}} -
+                {{resume.personal.address.postal}} -
+                {{resume.personal.address.country}}
             </div>
         </div>
 
-
-        <div id="contacts" class="col-sm-2 col-print-2" >
+        <div id="contacts" class="col-sm-12 col-print-2" >
             <div ng-repeat="contact in resume.personal.contacts" class="contact">
                 {{contact}}
             </div>
         </div>
-
 
     </div>
 </div>
