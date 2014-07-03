@@ -7,5 +7,7 @@ var resumeApp = angular.module('resumeApp', []);
 resumeApp.controller('resumeCtrl', function($scope, $http) {
     $http.get('data.json').success(function(data) {
         $scope.resume = data;
-    })
+    });
+
+    $scope.current_date = Date.now();
 });
