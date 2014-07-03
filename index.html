@@ -36,10 +36,11 @@
             </div>
         </div>
 
-        <div id="contacts" class="col-sm-12 col-print-2" >
-            <div ng-repeat="contact in resume.personal.contacts" class="contact">
+        <div id="contacts" class="col-sm-12 col-print-2 text-center" >
+            <span ng-repeat="contact in resume.personal.contacts" class="contact">
+                <span ng-if="!$first"> - </span>
                 {{contact}}
-            </div>
+            </span>
         </div>
 
     </div>
