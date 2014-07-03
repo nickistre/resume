@@ -24,51 +24,102 @@
 
     "summary": "I am a programmer with a wide breadth of experience in server, network, and database administration. I look forward to learning and working with new technology to help customers to meet and exceed their needs.",
 
-    "skills": {
-        "Programming Languages": {
-            "PHP": [
-                "Zend Framework 1",
-                "Doctrine 2",
-                "Joomla",
-                "AMFPHP",
-                "Drupal",
-                "Horde"
-            ],
-            "Javascript": [
-                "jQuery",
-                "jQuery UI",
-                "DataTables",
-                "Sencha Touch",
-                "PhoneGap/Cordova"
-            ],
-            "ActionScript": [
-                "Flash/Flex",
-                "Air Mobile"
-            ],
-            "Python": [],
-            "C/C++": [
-                "Arduino"
-            ],
-            "BASH": [],
-            "Visual Basic": []
+    "skills": [
+        {
+            "domain": "Programming Languages",
+            "skills": [
+                {
+                    "skill": "PHP",
+                    "subskills": [
+                        "Zend Framework 1",
+                        "Doctrine 2",
+                        "Joomla",
+                        "AMFPHP",
+                        "Drupal",
+                        "Horde"
+                    ]
+                },
+                {
+                    "skill": "HTML5/Javascript/CSS3",
+                    "subskills": [
+                        "jQuery",
+                        "jQuery UI",
+                        "DataTables",
+                        "Sencha Touch",
+                        "PhoneGap/Cordova",
+                        "Bootstrap"
+                    ]
+                },
+                {
+                    "skill": "Python"
+                },
+                {
+                    "skill": "BASH"
+                },
+                {
+                    "skill": "C/C++",
+                    "subskills": [
+                        "Arduino"
+                    ]
+                },
+                {
+                    "skill": "ActionScript",
+                    "subskills": [
+                        "Flash/Flex",
+                        "Air Mobile"
+                    ]
+                },
+                {
+                    "skill": "Visual Basic"
+                }
+            ]
         },
-        "Version Control": {
-            "Mercurial": [],
-            "Git": [],
-            "Subversion": []
+        {
+            "domain": "Version Control",
+            "skills": [
+                {
+                    "skill": "Mercurial"
+                },
+                {
+                    "skill": "Git"
+                },
+                {
+                    "skill": "Subversion"
+                }
+            ]
         },
-        "Databases": {
-            "PostgreSQL": [],
-            "MySQL": [],
-            "SQL Server": [],
-            "Pervasive.SQL": []
+        {
+            "domain": "Databases",
+            "skills": [
+                {
+                    "skill": "PostgreSQL"
+                },
+                {
+                    "skill": "MySQL"
+                },
+                {
+                    "skill": "SQL Server"
+                },
+                {
+                    "skill": "Pervasive.SQL"
+                }
+            ]
         },
-        "Linux Distributions": {
-            "Ubuntu": [],
-            "Debian": [],
-            "CentOS": []
+        {
+            "domain": "Linux Distributions",
+            "skills": [
+                {
+                    "skill": "Ubuntu"
+                },
+                {
+                    "skill": "Debian"
+                },
+                {
+                    "skill": "CentOS"
+                }
+            ]
         }
-    },
+    ],
 
     "code_samples": [
         {
