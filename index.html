@@ -140,13 +140,14 @@
     <div class="col-sm-12 col-print-12 text-center section-one-page">
 
         <div class="hidden-print" >
-            <span>Source: <a ng-href="{{resume.general.source_url}}">{{resume.general.source_url_text}}</a></span>
+            <span>Source is available at <a
+                    ng-href="{{resume.general.source_url}}">{{resume.general.source_url_text}}</a></span>
         </div>
 
         <div class="visible-print hidden-xs hidden-sm hidden-md hidden-lg">
-            <div>Date Printed: {{current_date | date: 'longDate'}}</div>
-            <div>Current Résumé/CV URL: {{resume.general.url}}</div>
-            <div>Source URL: {{resume.general.source_url}}</div>
+            <div>Created on {{current_date | date: 'longDate'}}</div>
+            <div>Current Résumé/CV is available at <span class="link">{{resume.general.url}}</span></div>
+            <div>Source is available at <span class="link">{{resume.general.source_url}}</span></div>
         </div>
 
     </div>

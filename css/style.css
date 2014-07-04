@@ -91,6 +91,10 @@ h4, h5 {
     font-size: 12px;
 }
 
+.link {
+    font-weight: bolder;
+}
+
 @media (max-width: 768px) {
     #resume-header {
         position: static;
