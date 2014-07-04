@@ -198,12 +198,14 @@
                 "start": "March 2009",
                 "end":   "Present"
             },
-            "description": "Built systems for clients mainly using PHP, JavaScript, and Actionscript for web, desktop, and mobile applications. Common technologies used were Joomla for CMS-based websites, Sencha Touch for mobile web apps, and PhoneGap/Cordova. Joomla often used the Fabrik component and jQuery and Bootstrap for customizations",
+            "description": "Built systems for clients mainly using PHP, JavaScript, and Actionscript for web, desktop, and mobile applications. Common technologies used were Joomla for CMS-based websites, Sencha Touch for mobile web apps, and PhoneGap/Cordova. Joomla-based projects often used the Fabrik component and jQuery and Bootstrap for customizations.",
             "accomplishments": [
+                "Building a system for use in evaluating nursing students, built in PHP using Zend Framework 1, Doctrine 2, and  jQuery for the website, and an Android tablet application written in Adobe Air and deployed using Adobe Air Mobile runtime. Much of my work involved building our own internal libraries that we could take from project to project.",
                 "Finished a job-posting application using Adobe Flash for the web-accessible front end and AMFPHP for the backend.",
-                "Maintained an ad-delivery system, using Adobe Flex & AMFPHP, that allowed clients to submit video and image ads that ran on screens in various local businesses.",
-                "Heavily modified the above system to provide ad delivery to custom-built touchscreen headrests running Ubuntu that were to be place in taxis. Included setting up remote auto upgrading capabilities and stats and network tracking using BASH, Python, and C, and setting up OpenVPN to allow for secure access to the headrests while the taxis they were in were driving around town.",
-                "Building a system for use in evaluating nursing students, built in PHP using Zend Framework 1, Doctrine 2, and  jQuery for the website, and an Android tablet application written in Adobe Air and deployed using Adobe Air Mobile runtime. Much of my work involved building our own internal libraries that we could take from project to project, speeding up our development time of each subsequent project."
+                "Updating a custom-built ad-delivery system, using Adobe Flex & AMFPHP, that allowed clients to submit video and image ads that ran on screens in various local businesses.",
+                "Heavily modified the above ad-delivery system for custom-built touchscreen headrests running Ubuntu that were to be place in taxis. Included setting up remote auto upgrading capabilities, stats and network tracking using BASH, Python, and C, and setting up OpenVPN and OpenSSH to allow for secure access to the headrests while the taxis they were in were driving around town.",
+                "Pushed for the switch from Subversion to Mercurial as the company's version control system, trained and encouraged others in using the git flow model for development with larger projects.",
+                "Trained and managed local and remote programmers to accelerate project development."
             ]
         },
         {
@@ -238,7 +240,7 @@
                 "Migrated the primary accounting and sales processing software from Great Plains Account (DOS-based) to Great Plains Dynamics 6.0 (Windows-based).",
                 "Developed an application that provided a way for internal processors to access faxes from remote sales staff in a paperless format.",
                 "Implemented and maintained an EDI system.",
-                "Utilized VMWare server to allow us to use virtualization to massively reduce the amount of time and money spent on physical servers, testing, and deployment of various systems."
+                "Utilized VMWare server to massively reduce the amount of time and money spent on physical servers for testing and deployment of various systems."
             ]
         }
     ],
