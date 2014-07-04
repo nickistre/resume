@@ -1,5 +1,5 @@
-resume-angularJS-bootstrap
-==========================
+resume
+======
 
 This project was to try out AngularJS and Bootstrap to create a printable resume webpage from data stored in the data.json file.
 
