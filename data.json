@@ -200,7 +200,7 @@
             },
             "description": "Built systems for clients mainly using PHP, JavaScript, and Actionscript for web, desktop, and mobile applications. Common technologies used were Joomla for CMS-based websites, Sencha Touch for mobile web apps, and PhoneGap/Cordova. Joomla-based projects often used the Fabrik component and jQuery and Bootstrap for customizations.",
             "accomplishments": [
-                "Building a system for use in evaluating nursing students, built in PHP using Zend Framework 1, Doctrine 2, and  jQuery for the website, and an Android tablet application written in Adobe Air and deployed using Adobe Air Mobile runtime. Much of my work involved building our own internal libraries that we could take from project to project.",
+                "Building a system for use in evaluating nursing students, built in PHP using Zend Framework 1, Doctrine 2, and  jQuery for the website, and an Android tablet application written in Adobe Air and deployed using Adobe Air Mobile runtime.",
                 "Finished a job-posting application using Adobe Flash for the web-accessible front end and AMFPHP for the backend.",
                 "Updating a custom-built ad-delivery system, using Adobe Flex & AMFPHP, that allowed clients to submit video and image ads that ran on screens in various local businesses.",
                 "Heavily modified the above ad-delivery system for custom-built touchscreen headrests running Ubuntu that were to be place in taxis. Included setting up remote auto upgrading capabilities, stats and network tracking using BASH, Python, and C, and setting up OpenVPN and OpenSSH to allow for secure access to the headrests while the taxis they were in were driving around town.",
@@ -227,7 +227,7 @@
             ]
         },
         {
-            "company": "Service Tool Company",
+            "company": "Service Tool Company, LLC",
             "position": "System Analyst",
             "location": "New Iberia, LA",
             "dates": {
@@ -262,7 +262,7 @@
             "title": "Grand Prize Winning Team",
             "issuer": "CajunCodeFest 3.0",
             "date":  "April 2014",
-            "description": "The theme of the competition was \"Aging in Place\", and my team's winning solution was custom built hardware and software that would help elderly people live at home safely through the collection and communication of a person’s medical, social and environmental status. We had beat out 11 other teams (of up to 6 members) in the 28 hour competition to win the $10,000 prize. My main part in the project was to build a custom interfacing system using Arduino and radio receiving hardware and python running on an internet-connected computer to queue and transmit data from remote sensor units and a Joomla-based web application system."
+            "description": "The theme of the competition was \"Aging in Place\", and my team's winning solution was custom built hardware and software that would help elderly people live at home safely through the collection and communication of a person’s medical, social and environmental status. We had beat out 11 other teams (of up to 6 members) in the 28 hour competition to win the $10,000 prize. My main part in the project was to build a custom interfacing system using Arduino and radio receiving hardware and python running on an internet-connected computer to queue and transmit data from remote sensor units to a Joomla-based web application system."
         }
     ],
 
