@@ -2,9 +2,11 @@
  * Created by nick on 6/22/14.
  */
 
-var resumeApp = angular.module('resumeApp', []);
+console.log('Loading controllers.js');
 
-resumeApp.controller('resumeCtrl', function($scope, $http) {
+var resumeControllers = angular.module('resumeControllers', []);
+
+resumeControllers.controller('resumeDataCtrl', function ($scope, $http) {
     $http.get('data.json').success(function(data) {
         $scope.resume = data;
     });
