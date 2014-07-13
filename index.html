@@ -20,149 +20,15 @@
 
     <!-- Angular JS, main and components -->
     <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
 
     <!-- App-specific javascript code -->
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
 </head>
-<body class="container-fluid" ng-controller="bodyCtrl">
+<body>
 
-
-<div id="resume-header" class="row">
-    <div id="personal-info" class="section-one-page">
-
-        <div class="name text-left col-sm-12 col-print-12 text-center">{{resume.personal.name}}</div>
-
-        <div id="address" class="col-sm-12 col-print-12 text-center">
-            <div class="address">
-                <span class="address-line" ng-repeat="address in resume.personal.address.address">
-                    {{address}} •
-                </span>
-                {{resume.personal.address.city}} •
-                {{resume.personal.address.state}} •
-                {{resume.personal.address.postal}} •
-                {{resume.personal.address.country}}
-            </div>
-        </div>
-
-        <div id="contacts" class="col-sm-12 col-print-12 text-center" >
-            <span ng-repeat="contact in resume.personal.contacts" class="contact">
-                <span ng-if="!$first"> • </span>
-                {{contact}}
-            </span>
-        </div>
-
-        <div class="clearfix"></div>
-
-    </div>
-</div>
-
-<div id="resume-body" class="row">
-
-    <div id="summary-mobile" class="section-one-page col-xs-12 section-main visible-xs hidden-sm hidden-md hidden-lg hidden-print">
-        <h1>Summary</h1>
-        <p>{{resume.summary}}</p>
-    </div>
-
-    <div class="col-sm-3 col-print-3">
-        <div id="skills" class="section-multi-pages section-main">
-            <h1>Skills</h1>
-
-            <div ng-repeat="domain in resume.skills" class="section-one-page domain">
-                <h2>{{domain.domain}}</h2>
-
-                <div ng-repeat="skill in domain.skills" class="skill col-xs-6 col-sm-12 col-print-12">
-                    <h3>{{skill.skill}}</h3>
-                    <ul>
-                        <li ng-repeat="subskill in skill.subskills" class="subskill">
-                        {{subskill}}
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="clearfix"></div>
-            </div>
-        </div>
-
-        <div id="code-samples" class="section-one-page section-main">
-            <h1>Code Samples</h1>
-            <div ng-repeat="code_sample in resume.code_samples" class="code-sample">
-                <h2 class="hidden-print"><a ng-href="{{code_sample.url}}">{{code_sample.name}}</a></h2>
-                <div class="visible-print hidden-xs hidden-sm hidden-md hidden-lg">
-                    <h2>{{code_sample.name}}</h2>
-                    <span class="code-sample-url">{{code_sample.url}}</span>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="col-sm-9 col-print-9 col-print-right">
-        <div id="summary" class="section-one-page section-main hidden-xs">
-            <h1>Summary</h1>
-            <p>{{resume.summary}}</p>
-        </div>
-
-        <div id="work-experience" class="section-multi-pages section-main">
-            <h1>Work Experience</h1>
-            <div ng-repeat="work_experience in resume.work_experiences" class="section-one-page">
-                <h2>{{work_experience.position}}, {{work_experience.company}}</h2>
-                <h3>{{work_experience.location}}—{{work_experience.dates.start}}-{{work_experience.dates.end}}</h3>
-                <div class="work-experience-summary">{{work_experience.description}}</div>
-                <div class="work-experience-accomplishments">
-                    <h4>Accomplishments</h4>
-                    <ul>
-                        <li ng-repeat="accomplishment in work_experience.accomplishments">{{accomplishment}}</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div id="awards" class="section-multi-pages section-main">
-            <h1>Awards</h1>
-            <div ng-repeat="award in resume.awards" class="section-one-page">
-                <h2>{{award.title}}</h2>
-                <h3>{{award.issuer}}—{{award.date}}</h3>
-                <div class="award-description">{{award.description}}</div>
-            </div>
-        </div>
-
-        <div id="education" class="section-multi-pages section-main">
-            <h1>Education</h1>
-            <div ng-repeat="education in resume.education" class="section-one-page">
-                <h2>{{education.school}}</h2>
-                <h3>{{education.degree}}—{{education.dates.start}}-{{education.dates.end}}</h3>
-                <div class="education-description">{{education.description}}</div>
-            </div>
-        </div>
-
-        <div id="organizations" class="section-multi-pages section-main">
-            <h1>Organizations</h1>
-            <div ng-repeat="organization in resume.organizations" class="section-onepage">
-                <h2>{{organization.position}}, {{organization.organization}}</h2>
-                <h3>{{organization.dates.start}}-{{organization.dates.end}}</h3>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-<div id="resume-footer" class="row" >
-    <div class="col-sm-12 col-print-12 text-center section-one-page">
-
-        <div class="hidden-print" >
-            <span>Source is available at <a
-                    ng-href="{{resume.general.source_url}}">{{resume.general.source_url_text}}</a></span>
-        </div>
-
-        <div class="visible-print hidden-xs hidden-sm hidden-md hidden-lg">
-            <div>Created on {{current_date | date: 'longDate'}}</div>
-            <div>Current Résumé/CV is available at <span class="link">{{resume.general.url}}</span></div>
-            <div>Source is available at <span class="link">{{resume.general.source_url}}</span></div>
-        </div>
-
-    </div>
-</div>
+<div ng-view></div>
 
 </body>
 </html>
