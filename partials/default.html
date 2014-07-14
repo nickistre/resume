@@ -8,10 +8,8 @@
     <div id="resume-body" class="row">
 
         <div id="summary-mobile"
-             class="section-one-page col-xs-12 section-main visible-xs hidden-sm hidden-md hidden-lg hidden-print">
-            <h1>Summary</h1>
-
-            <p>{{resume.summary}}</p>
+             class="section-one-page col-xs-12 section-main visible-xs hidden-sm hidden-md hidden-lg hidden-print"
+             ng-include="'partials/sections/summary.html'">
         </div>
 
         <div class="col-sm-3 col-print-3">
@@ -50,10 +48,8 @@
         </div>
 
         <div class="col-sm-9 col-print-9 col-print-right">
-            <div id="summary" class="section-one-page section-main hidden-xs">
-                <h1>Summary</h1>
-
-                <p>{{resume.summary}}</p>
+            <div id="summary" class="section-one-page section-main hidden-xs"
+                 ng-include="'partials/sections/summary.html'">
             </div>
 
             <div id="work-experience" class="section-multi-pages section-main">
