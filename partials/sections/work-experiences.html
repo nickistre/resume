@@ -1,0 +1,15 @@
+<h1>Work Experience</h1>
+
+<div ng-repeat="work_experience in resume.work_experiences" class="section-one-page">
+    <h2>{{work_experience.position}}, {{work_experience.company}}</h2>
+
+    <h3>{{work_experience.location}}—{{work_experience.dates.start}}-{{work_experience.dates.end}}</h3>
+
+    <div class="work-experience-summary">{{work_experience.description}}</div>
+    <div class="work-experience-accomplishments">
+        <h4>Accomplishments</h4>
+        <ul>
+            <li ng-repeat="accomplishment in work_experience.accomplishments">{{accomplishment}}</li>
+        </ul>
+    </div>
+</div>

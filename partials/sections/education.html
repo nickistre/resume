@@ -1,0 +1,9 @@
+<h1>Education</h1>
+
+<div ng-repeat="education in resume.education" class="section-one-page">
+    <h2>{{education.school}}</h2>
+
+    <h3>{{education.degree}}—{{education.dates.start}}-{{education.dates.end}}</h3>
+
+    <div class="education-description">{{education.description}}</div>
+</div>

@@ -1,0 +1,9 @@
+<h1>Awards</h1>
+
+<div ng-repeat="award in resume.awards" class="section-one-page">
+    <h2>{{award.title}}</h2>
+
+    <h3>{{award.issuer}}—{{award.date}}</h3>
+
+    <div class="award-description">{{award.description}}</div>
+</div>

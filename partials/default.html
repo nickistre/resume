@@ -26,75 +26,26 @@
                  ng-include="'partials/sections/summary.html'">
             </div>
 
-            <div id="work-experience" class="section-multi-pages section-main">
-                <h1>Work Experience</h1>
-
-                <div ng-repeat="work_experience in resume.work_experiences" class="section-one-page">
-                    <h2>{{work_experience.position}}, {{work_experience.company}}</h2>
-
-                    <h3>{{work_experience.location}}—{{work_experience.dates.start}}-{{work_experience.dates.end}}</h3>
-
-                    <div class="work-experience-summary">{{work_experience.description}}</div>
-                    <div class="work-experience-accomplishments">
-                        <h4>Accomplishments</h4>
-                        <ul>
-                            <li ng-repeat="accomplishment in work_experience.accomplishments">{{accomplishment}}</li>
-                        </ul>
-                    </div>
-                </div>
+            <div id="work-experience" class="section-multi-pages section-main"
+                 ng-include="'partials/sections/work-experiences.html'">
             </div>
 
-            <div id="awards" class="section-multi-pages section-main">
-                <h1>Awards</h1>
-
-                <div ng-repeat="award in resume.awards" class="section-one-page">
-                    <h2>{{award.title}}</h2>
-
-                    <h3>{{award.issuer}}—{{award.date}}</h3>
-
-                    <div class="award-description">{{award.description}}</div>
-                </div>
+            <div id="awards" class="section-multi-pages section-main" ng-include="'partials/sections/awards.html'">
             </div>
 
-            <div id="education" class="section-multi-pages section-main">
-                <h1>Education</h1>
-
-                <div ng-repeat="education in resume.education" class="section-one-page">
-                    <h2>{{education.school}}</h2>
-
-                    <h3>{{education.degree}}—{{education.dates.start}}-{{education.dates.end}}</h3>
-
-                    <div class="education-description">{{education.description}}</div>
-                </div>
+            <div id="education" class="section-multi-pages section-main"
+                 ng-include="'partials/sections/education.html'">
             </div>
 
-            <div id="organizations" class="section-multi-pages section-main">
-                <h1>Organizations</h1>
-
-                <div ng-repeat="organization in resume.organizations" class="section-onepage">
-                    <h2>{{organization.position}}, {{organization.organization}}</h2>
-
-                    <h3>{{organization.dates.start}}-{{organization.dates.end}}</h3>
-                </div>
+            <div id="organizations" class="section-multi-pages section-main"
+                 ng-include="'partials/sections/organizations.html'">
             </div>
 
         </div>
     </div>
 
     <div id="resume-footer" class="row">
-        <div class="col-sm-12 col-print-12 text-center section-one-page">
-
-            <div class="hidden-print">
-            <span>Source is available at <a
-                    ng-href="{{resume.general.source_url}}">{{resume.general.source_url_text}}</a></span>
-            </div>
-
-            <div class="visible-print hidden-xs hidden-sm hidden-md hidden-lg">
-                <div>Created on {{current_date | date: 'longDate'}}</div>
-                <div>Current Résumé/CV is available at <span class="link">{{resume.general.url}}</span></div>
-                <div>Source is available at <span class="link">{{resume.general.source_url}}</span></div>
-            </div>
-
+        <div class="col-sm-12 col-print-12 text-center section-one-page" ng-include="'partials/sections/footer.html'">
         </div>
     </div>
 
