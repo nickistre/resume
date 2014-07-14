@@ -13,36 +13,10 @@
         </div>
 
         <div class="col-sm-3 col-print-3">
-            <div id="skills" class="section-multi-pages section-main">
-                <h1>Skills</h1>
-
-                <div ng-repeat="domain in resume.skills" class="section-one-page domain">
-                    <h2>{{domain.domain}}</h2>
-
-                    <div ng-repeat="skill in domain.skills" class="skill col-xs-6 col-sm-12 col-print-12">
-                        <h3>{{skill.skill}}</h3>
-                        <ul>
-                            <li ng-repeat="subskill in skill.subskills" class="subskill">
-                                {{subskill}}
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="clearfix"></div>
-                </div>
+            <div id="skills" class="section-multi-pages section-main" ng-include="'partials/sections/skills.html'">
             </div>
 
-            <div id="code-samples" class="section-one-page section-main">
-                <h1>Code Samples</h1>
-
-                <div ng-repeat="code_sample in resume.code_samples" class="code-sample">
-                    <h2 class="hidden-print"><a ng-href="{{code_sample.url}}">{{code_sample.name}}</a></h2>
-
-                    <div class="visible-print hidden-xs hidden-sm hidden-md hidden-lg">
-                        <h2>{{code_sample.name}}</h2>
-                        <span class="code-sample-url">{{code_sample.url}}</span>
-                    </div>
-                </div>
+            <div id="code-samples" class="section-one-page section-main" ng-include="'partials/sections/code-samples.html'">
             </div>
 
         </div>

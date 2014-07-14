@@ -1,0 +1,10 @@
+<h1>Code Samples</h1>
+
+<div ng-repeat="code_sample in resume.code_samples" class="code-sample">
+    <h2 class="hidden-print"><a ng-href="{{code_sample.url}}">{{code_sample.name}}</a></h2>
+
+    <div class="visible-print hidden-xs hidden-sm hidden-md hidden-lg">
+        <h2>{{code_sample.name}}</h2>
+        <span class="code-sample-url">{{code_sample.url}}</span>
+    </div>
+</div>
