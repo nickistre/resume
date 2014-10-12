@@ -1,4 +1,4 @@
-html5.iml
+html.iml
 .idea/**
 .directory
-bower_components/**
+html/bower_components/**
