@@ -1,3 +1,11 @@
-.idea/**
+# Intellij project directory
+/.idea/
+
+# KDE directory setting file
 .directory
-html/bower_components/**
+
+# Bower components directory
+/html/bower_components/
+
+# Vagrant dir
+/.vagrant/
