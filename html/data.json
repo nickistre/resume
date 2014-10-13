@@ -34,6 +34,7 @@
                         "Zend Framework 1",
                         "Doctrine 2",
                         "Drupal",
+                        "Wordpress",
                         "Joomla",
                         "AMFPHP",
                         "Horde",
@@ -41,7 +42,7 @@
                     ]
                 },
                 {
-                    "skill": "HTML5/Javascript/CSS3",
+                    "skill": "HTML5, Javascript, & CSS3",
                     "subskills": [
                         "jQuery",
                         "jQuery UI",
@@ -121,15 +122,28 @@
             ]
         },
         {
-            "domain": "Other Technologies",
+            "domain": "Cloud Services & Virtualization",
             "skills": [
                 {
-                    "skill": "Virtualization",
+                    "skill": "Amazon AWS"
+                },
+                {
+                    "skill": "VirtualBox",
                     "subskills": [
-                        "VirtualBox",
-                        "VMWare"
+                        "Vagrant"
                     ]
                 },
+                {
+                    "skill": "VMWare"
+                },
+                {
+                    "skill": "Docker"
+                }
+            ]
+        },
+        {
+            "domain": "Other Technologies",
+            "skills": [
                 {
                     "skill": "Apache",
                     "subskills": [
@@ -158,6 +172,9 @@
                     "subskills": [
                         "Bind9"
                     ]
+                },
+                {
+                    "skill": "CloudFlare"
                 },
                 {
                     "skill": "Samba"
@@ -190,6 +207,22 @@
     ],
 
     "work_experiences": [
+        {
+            "company": "Comit Developers & ACA Ventures",
+            "position": "Senior Engineer & Senior Developer",
+            "location": "Lafayette, LA",
+            "dates": {
+                "start": "July 2014",
+                "end": "October 2014"
+            },
+            "description": "Building PHP cluster server system, create deployment code and processes, maintaining legacy systems, assisting and instructing other developers on current projects",
+            "accomplishments": [
+                "Built and maintained a PHP 5.5 cluster system using Zend Server 7.0, NFS server, and MySQL on Amazon AWS cloud services. Created scripts to help with deploying code (specifically, Wordpress and Magento-based sites) to the cloud system. Setup scripts to help with initializing, adding and removing nodes for cluster system",
+                "Transferred and maintained a Wordpress multi-site system containing the company's and several clients' websites onto the cluster system",
+                "Assisted with performance and other improvements to existing sites for SEO purposes, such as setting up SSL and using CloudFlare to improve response times",
+                "Trained other developers on various needed technologies, such as creating internal SSL Certificates and creating, archiving, and deploying packages to the Zend Server clusters"
+            ]
+        },
         {
             "company": "Teamwork Solutions Group",
             "position": "Vice President of Interactive",
