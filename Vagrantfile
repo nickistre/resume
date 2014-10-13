@@ -24,7 +24,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     # please see the online documentation at vagrantup.com.
 
     # Every Vagrant virtual environment requires a box to build off of.
-    apache.vm.box = "nickistre/ubuntu-trusty32-update"
+    apache.vm.box = "nickistre/ubuntu-trusty32-apache"
 
     # Setup private IP port
     apache.vm.network "private_network", ip: apache_private_ip
@@ -35,13 +35,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     end
     
     # Setup synced folder
-    apache.vm.synced_folder apache_path, "/var/www/html", create: true, type: "rsync"
+    apache.vm.synced_folder apache_path, "/var/www/html"
 
     # Run scripts
     # Run updates
     apache.vm.provision :shell, inline: "apt-get update -yqq && apt-get upgrade -yqq"
-    # Install and setup apache2
-    apache.vm.provision :shell, inline: "apt-get install -yqq apache2 && a2enmod ssl && a2ensite default-ssl.conf && service apache2 reload"
     # Cleanup apt
     apache.vm.provision :shell, inline: "apt-get autoremove -yqq && apt-get autoclean -yqq"
   end
