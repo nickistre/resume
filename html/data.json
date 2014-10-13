@@ -215,12 +215,11 @@
                 "start": "July 2014",
                 "end": "October 2014"
             },
-            "description": "Building PHP cluster server system, create deployment code and processes, maintaining legacy systems, assisting and instructing other developers on current projects",
+            "description": "Building PHP cluster server system, create deployment code and processes, maintaining legacy systems, assisting and instructing other developers on current projects, and reorganizing and documenting of new and existing servers",
             "accomplishments": [
                 "Built and maintained a PHP 5.5 cluster system using Zend Server 7.0, NFS server, and MySQL on Amazon AWS cloud services. Created scripts to help with deploying code (specifically, Wordpress and Magento-based sites) to the cloud system. Setup scripts to help with initializing, adding and removing nodes for cluster system",
                 "Transferred and maintained a Wordpress multi-site system containing the company's and several clients' websites onto the cluster system",
-                "Assisted with performance and other improvements to existing sites for SEO purposes, such as setting up SSL and using CloudFlare to improve response times",
-                "Trained other developers on various needed technologies, such as creating internal SSL Certificates and creating, archiving, and deploying packages to the Zend Server clusters"
+                "Assisted with performance and other improvements to existing sites for SEO purposes, such as setting up SSL and using CloudFlare to improve response times"
             ]
         },
         {
