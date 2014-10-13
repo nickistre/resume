@@ -21,6 +21,7 @@ body {
  */
 .section-one-page {
     page-break-inside: avoid;
+    -webkit-region-break-inside: avoid;
 }
 
 /*
@@ -40,6 +41,10 @@ body {
 
 .section-multi-pages .section-one-page {
     display: table-row-group;
+}
+
+.force-page-break {
+    page-break-before: always;
 }
 
 /*
