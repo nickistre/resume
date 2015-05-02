@@ -48,9 +48,12 @@
                         "jQuery",
                         "jQuery UI",
                         "DataTables",
+                        "Ext JS",
                         "Sencha Touch",
                         "PhoneGap/Cordova",
-                        "Bootstrap"
+                        "Bootstrap",
+                        "Node.js",
+                        "grunt"
                     ]
                 },
                 {
@@ -92,6 +95,24 @@
             ]
         },
         {
+            "domain": "Web Servers",
+            "skills": [
+                {
+                    "skill": "Apache",
+                    "subskills": [
+                        "VirtualHosts",
+                        "SSL"
+                    ]
+                },
+                {
+                    "skill": "nginx",
+                    "subskills": [
+                        "SSL Reverse Proxy"
+                    ]
+                }
+            ]
+        },
+        {
             "domain": "Databases",
             "skills": [
                 {
@@ -99,6 +120,9 @@
                 },
                 {
                     "skill": "MySQL"
+                },
+                {
+                    "skill": "CouchDB"
                 },
                 {
                     "skill": "SQL Server"
@@ -146,13 +170,6 @@
             "domain": "Other Technologies",
             "skills": [
                 {
-                    "skill": "Apache",
-                    "subskills": [
-                        "VirtualHosts",
-                        "SSL"
-                    ]
-                },
-                {
                     "skill": "Email Servers",
                     "subskills": [
                         "Postfix",
@@ -171,7 +188,16 @@
                 {
                     "skill": "DNS",
                     "subskills": [
-                        "Bind9"
+                        "Bind9",
+                        "dnsmasq"
+                    ]
+                },
+                {
+                    "skill": "Router & NAS Systems",
+                    "subskills": [
+                        "pfSense",
+                        "EdgeOS",
+                        "freeNAS"
                     ]
                 },
                 {
@@ -208,6 +234,21 @@
     ],
 
     "work_experiences": [
+        {
+            "company": "Aristotle's Alexander",
+            "position": "Lead Software Developer",
+            "location": "Lafayette, LA",
+            "dates": {
+                "start": "October 2014",
+                "end": "Present"
+            },
+            "description": "Responsible for building highly complex software solutions using best-practices and patterns while acting as subject matter expert and team lead for software engineers across multiple large-scale IT projects",
+            "accomplishments": [
+                "Continued development of an ExtJS and CouchDB application for a sometimes-online field ticketing and reporting system",
+                "Created a library to allow for printable HTML reports in ExtJS",
+                "Assisted in creating processes using vagrant and grunt for local development and testing"
+            ]
+        },
         {
             "company": "Comit Developers & ACA Ventures",
             "position": "Senior Engineer & Senior Developer",
