@@ -1,13 +1,13 @@
-<h1>Skills</h1>
+<h1 class="skills-title">Skills</h1>
 
-<div ng-repeat="domain in resume.skills" class="section-one-page domain">
-    <h2>{{domain.domain}}</h2>
+<div ng-repeat="domain in resume.skills" class="section-one-page skill-domain-repeat">
+    <h2 class="skill-domain-name">{{domain.domain}}</h2>
 
-    <div ng-repeat="skill in domain.skills" class="skill col-xs-6 col-sm-12 col-print-12">
-        <h3>{{skill.skill}}</h3>
+    <div ng-repeat="skill in domain.skills" class="skill col-xs-6 col-sm-12 col-print-12 skill-domain-skill-repeat">
+        <h3 class="skill-domain-skill-name">{{skill.skill}}</h3>
         <ul>
-            <li ng-repeat="subskill in skill.subskills" class="subskill">
-                {{subskill}}
+            <li ng-repeat="subskill in skill.subskills" class="skill-domain-skill-subskill-repeat">
+                <span class="skill-domain-skill-subskill-name">{{subskill}}</span>
             </li>
         </ul>
     </div>
