@@ -1,0 +1,8 @@
+web: 
+    build: .
+    ports: 
+     - "80:80"
+    volumes:
+     - ./html:/var/www/html
+
+    
