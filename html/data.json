@@ -37,9 +37,7 @@
                         "Drupal",
                         "Wordpress",
                         "Joomla",
-                        "AMFPHP",
                         "Horde",
-                        "JSON and SOAP Web Services",
                         "composer"
                     ]
                 },
@@ -47,8 +45,6 @@
                     "skill": "HTML5, Javascript, & CSS3",
                     "subskills": [
                         "jQuery",
-                        "jQuery UI",
-                        "DataTables",
                         "Ext JS",
                         "Sencha Touch",
                         "PhoneGap/Cordova",
@@ -328,7 +324,7 @@
                 "start": "1997",
                 "end"  : "2001"
             },
-            "description": "Graduated Magna Cum Laude with a 3.85 GPA. Member of the Honors Society and served as President of the Inline Hockey Club."
+            "description": "Magna Cum Laude with a 3.85 GPA, Honors Society member, Inline Hockey Club President"
         }
     ],
 
