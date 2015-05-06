@@ -9,7 +9,7 @@ h1 {
 
 /* Make sure margins are set for each main secton for both screen and print */
 .section-main {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 10px;
     clear: both;
 }
@@ -73,7 +73,7 @@ h4, h5 {
 #skills .domain {
     padding-left: 10px;
     clear: both;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 #skills .skill {
@@ -97,6 +97,11 @@ h4, h5 {
 #skills .skill .subskill {
     font-style: italic;
     font-size: 12px;
+}
+
+.experience-accomplishments {
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .link {
