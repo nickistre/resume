@@ -289,12 +289,12 @@
             },
             "description": "Duties mainly involved maintaining and extending a custom-built PHP website that provided accounting, ordering, and invoicing service for a large construction supply company, which also included the administration of the PostgreSQL database and CentOS systems powering the site.",
             "accomplishments": [
-                "Moved the codebase into a Subversion repository for better code maintenance.",
-                "Improved security and reusability of project parts.",
-                "Headed a team of five developers to expand the project.",
-                "Added a user authentication and security model using an LDAP connection to Windows 2003 Server Active Directory.",
-                "Optimized the data transfer code between the project and an accounting system running on an IBM AIX server.",
-                "Converted the project from PHP on a CentOS server with PostgresSQL to PHP running on a Windows Server with SQL Server 2005."
+                "Moved the codebase into a Subversion repository for better code maintenance",
+                "Improved security and reusability of project parts",
+                "Headed a team of five developers to expand the project",
+                "Added a user authentication and security model using an LDAP connection to Windows 2003 Server Active Directory",
+                "Optimized the data transfer code between the project and an accounting system running on an IBM AIX server",
+                "Converted the project from PHP on a CentOS server with PostgresSQL to PHP running on a Windows Server with SQL Server 2005"
             ]
         },
         {
