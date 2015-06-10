@@ -199,6 +199,12 @@
                     ]
                 },
                 {
+                    "skill": "Salesforce",
+                    "subskills": [
+                        "Apex"
+                    ]
+                },
+                {
                     "skill": "CloudFlare"
                 },
                 {
@@ -276,7 +282,8 @@
                 "Completed a job-posting application site",
                 "improved a custom-built ad-delivery system that allowed clients to submit video and image ads that ran on screens in various local businesses",
                 "Programmed custom-built touchscreen headrests for interactive ad systems in taxis",
-                "Pushed for the switch from Subversion to Mercurial as the company's version control system"
+                "Pushed for the switch from Subversion to Mercurial as the company's version control system",
+                "Administrating and developing in Salesforce"
             ]
         },
         {
