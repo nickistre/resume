@@ -5,7 +5,7 @@
 # Run as root and in the root of the repo directory
 
 apt-get update
-apt-get install -y npm
+apt-get install -y nodejs-legacy npm
 
 npm install -g bower
 
