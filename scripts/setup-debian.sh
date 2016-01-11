@@ -11,6 +11,6 @@ npm install -g bower
 
 pushd html
 
-bower install -s
+bower --allow-root install -s
 
 popd
