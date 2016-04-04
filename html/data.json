@@ -32,7 +32,7 @@
                 {
                     "skill": "PHP",
                     "subskills": [
-                        "Zend Framework 1",
+                        "Zend Framework",
                         "Doctrine 2",
                         "Drupal",
                         "Wordpress",
@@ -215,12 +215,6 @@
                 },
                 {
                     "skill": "OpenVPN"
-                },
-                {
-                    "skill": "rsync"
-                },
-                {
-                    "skill": "wget"
                 }
             ]
         }
@@ -239,12 +233,27 @@
 
     "work_experiences": [
         {
+            "company": "Heartland Payment Systems",
+            "position": "Marketing Technology Developer",
+            "location": "Chicago, IL",
+            "dates": {
+                "start": "July 2016",
+                "end": "Present"
+            },
+            "description": "Worked remotely to build and maintain various sites for the Marketing Department and performed some Salesforce administration tasks for various needs.",
+            "accomplishments": [
+                "Setup and maintained cloud servers on AWS",
+                "Converting Adobe PSD files from the designers to HTML5 pages on the sites",
+                "Setup and maintain webforms-to-Salesforce object submissions"
+            ]
+        },
+        {
             "company": "Aristotle's Alexander",
             "position": "Lead Software Developer",
             "location": "Lafayette, LA",
             "dates": {
                 "start": "October 2014",
-                "end": "Present"
+                "end": "July 2016"
             },
             "description": "Responsible for building highly complex software solutions using best-practices and patterns while acting as subject matter expert and team lead for software engineers across multiple large-scale IT projects.",
             "accomplishments": [
