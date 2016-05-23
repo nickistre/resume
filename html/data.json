@@ -233,7 +233,7 @@
 
     "work_experiences": [
         {
-            "company": "Heartland Payment Systems",
+            "company": "Global Payments Inc. (merged with Heartland Payment Systems, Inc. in April 2016)",
             "position": "Marketing Technology Developer",
             "location": "Chicago, IL",
             "dates": {
@@ -245,7 +245,9 @@
                 "Setup and maintained cloud servers on AWS",
                 "Converting Adobe PSD files from the designers to HTML5 pages on the sites",
                 "Setup and maintain webforms-to-Salesforce object submissions",
-                "Worked on performance and security improvements of the websites"
+                "Worked on performance and security improvements of the websites",
+                "Built custom Wordpress plugins to show forms and handle form submissions",
+                "Setup forms to be able to submit via AJAX and added a custom-built honeypot anti-bot system"
             ]
         },
         {
