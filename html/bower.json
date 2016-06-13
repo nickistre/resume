@@ -1,21 +1,24 @@
 {
-    "name": "Resume",
-    "version": "0.0.0",
-    "authors": [
-        "Nicholas Istre <nickistre@gmail.com>"
-    ],
-    "license": "MIT",
-    "private": true,
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "test",
-        "tests"
-    ],
-    "dependencies": {
-        "angular": "1.3.0-build.2918+sha.a2c7cf9",
-        "bootstrap": "3.2.0",
-        "angular-route": "1.3.0-build.2918+sha.a2c7cf9"
-    }
+  "name": "Resume",
+  "version": "0.0.0",
+  "authors": [
+    "Nicholas Istre <nickistre@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.3.0-build.2918+sha.a2c7cf9",
+    "bootstrap": "3.2.0",
+    "angular-route": "1.3.0-build.2918+sha.a2c7cf9"
+  },
+  "resolutions": {
+    "angular": "1.3.0-build.2918+sha.a2c7cf9"
+  }
 }
