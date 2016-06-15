@@ -30,7 +30,7 @@
             "domain": "Programming Languages",
             "skills": [
                 {
-                    "skill": "PHP",
+                    "skill": "PHP 5",
                     "subskills": [
                         "Zend Framework",
                         "Doctrine 2",
@@ -148,7 +148,7 @@
             "domain": "Cloud Services & Virtualization",
             "skills": [
                 {
-                    "skill": "Amazon AWS"
+                    "skill": "Amazon Web Services"
                 },
                 {
                     "skill": "VirtualBox",
@@ -161,6 +161,9 @@
                 },
                 {
                     "skill": "Docker"
+                },
+                {
+                    "skill": "DigitalOcean"
                 }
             ]
         },
@@ -205,6 +208,9 @@
                     ]
                 },
                 {
+                    "skill": "REST"
+                },
+                {
                     "skill": "CloudFlare"
                 },
                 {
@@ -246,8 +252,8 @@
                 "Converting Adobe PSD files from the designers to HTML5 pages on the sites",
                 "Setup and maintain webforms-to-Salesforce object submissions",
                 "Worked on performance and security improvements of the websites",
-                "Built custom Wordpress plugins to show forms and handle form submissions",
-                "Setup forms to be able to submit via AJAX and added a custom-built honeypot anti-bot system"
+                "Built custom Wordpress plugins to submit forms via AJAX and added honeypot anti-bot system",
+                "Skills: PHP 5, MySQL, Wordpress, Amazon Web Services, Zend Framework 2, Linux, Apache 2, Javascript, jQuery, docker, Bootstrap, HTML5, Git"
             ]
         },
         {
@@ -262,7 +268,8 @@
             "accomplishments": [
                 "Continued development of an ExtJS and CouchDB application for a sometimes-online field ticketing and reporting system",
                 "Created a library to allow for printable HTML reports in ExtJS",
-                "Assisted in creating processes using vagrant and grunt for local development and testing"
+                "Assisted in creating processes using vagrant and grunt for local development and testing",
+                "Skills: Javascript, Ext JS 5, Node.js, Virtualbox, vagrant, docker, linux, CouchDB, NoSQL, Nginx, grunt, Mercurial, Git"
             ]
         },
         {
@@ -277,7 +284,8 @@
             "accomplishments": [
                 "Built and maintained a Zend Server 7.0 Cluster system on Amazon AWS cloud services. Created scripts to help with deploying code to the cloud system and for scaling purposes",
                 "Migrated company's and several clients' websites to a Wordpress multi-site system onto the cluster system",
-                "Assisted with performance and other improvements to existing sites for SEO purposes, such as setting up SSL and using CloudFlare to improve response times"
+                "Assisted with performance and other improvements to existing sites for SEO purposes, such as setting up SSL and using CloudFlare to improve response times",
+                "Skills: PHP 5, MySQL, Amazon Web Services, Zend Server, Apache 2, Linux, BASH, Cloudflare, Zend Framework, Doctrin 2, Joomla, Horde, Sencha Touch, PhoneGap/Cordova, Bootstrap, Mercurial, Git"
             ]
         },
         {
@@ -295,7 +303,8 @@
                 "improved a custom-built ad-delivery system that allowed clients to submit video and image ads that ran on screens in various local businesses",
                 "Programmed custom-built touchscreen headrests for interactive ad systems in taxis",
                 "Pushed for the switch from Subversion to Mercurial as the company's version control system",
-                "Administrating and developing in Salesforce"
+                "Administrating and developing in Salesforce",
+                "Skills: PHP 5, MySQL, Javascript, PostgreSQL, Amazon Web Services, DigitalOcean, Apache 2, Linux, BASH, HTML5, Python, C/C++, ActionScript/Flex, Subversion/SVN, Mercurial"
             ]
         },
         {
@@ -313,7 +322,8 @@
                 "Headed a team of five developers to expand the project",
                 "Added a user authentication and security model using an LDAP connection to Windows 2003 Server Active Directory",
                 "Optimized the data transfer code between the project and an accounting system running on an IBM AIX server",
-                "Converted the project from PHP on a CentOS server with PostgresSQL to PHP running on a Windows Server with SQL Server 2005"
+                "Converted the project from PHP on a CentOS server with PostgresSQL to PHP running on a Windows Server with SQL Server 2005",
+                "Skills: PHP, PostgreSQL, Linux, Apache 2, LDAP/Active Directory, SQL Server 2005, Windows Server, Subversion/SVN"
             ]
         },
         {
@@ -330,7 +340,8 @@
                 "Migrated the primary accounting and sales processing software from Great Plains Account (DOS-based) to Great Plains Dynamics 6.0 (Windows-based)",
                 "Developed an application that provided a way for internal processors to access faxes from remote sales staff in a paperless format",
                 "Implemented and maintained an EDI system",
-                "Utilized VMWare server to massively reduce the amount of time and money spent on physical servers for testing and deployment of various systems"
+                "Utilized VMWare server to massively reduce the amount of time and money spent on physical servers for testing and deployment of various systems",
+                "Skills: Windows, Linux, Visual Basic, Microsoft Dynamics, SQL Server, Pervasive.SQL"
             ]
         }
     ],
