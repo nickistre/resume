@@ -244,10 +244,10 @@
             "accomplishments": [
                 "Setup and maintained cloud servers on AWS",
                 "Converting Adobe PSD files from the designers to HTML5 pages on the sites",
-                "Setup and maintain webforms-to-Salesforce object submissions",
                 "Worked on performance and security improvements of the websites",
                 "Built custom Wordpress plugins to show forms and handle form submissions",
-                "Setup forms to be able to submit via AJAX and added a custom-built honeypot anti-bot system"
+                "Setup forms to be able to submit via AJAX and added a custom-built honeypot anti-bot system",
+                "Administrated Salesforce and built code to interface with Salesforce API"
             ]
         },
         {
