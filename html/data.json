@@ -145,10 +145,10 @@
             ]
         },
         {
-            "domain": "Cloud Services & Virtualization",
+            "domain": "Cloud & Virtualization",
             "skills": [
                 {
-                    "skill": "Amazon AWS"
+                    "skill": "Amazon Web Services (AWS)"
                 },
                 {
                     "skill": "VirtualBox",
@@ -235,7 +235,7 @@
         {
             "company": "Global Payments Inc. (merged with Heartland Payment Systems, Inc. in April 2016)",
             "position": "Marketing Technology Developer",
-            "location": "Chicago, IL",
+            "location": "Atlanta, GA",
             "dates": {
                 "start": "July 2015",
                 "end": "Present"
@@ -275,7 +275,7 @@
             },
             "description": "Building PHP cluster server systems, create deployment code and processes, maintaining legacy systems, assisting and instructing other developers on current projects, and reorganizing and documenting of new and existing servers.",
             "accomplishments": [
-                "Built and maintained a Zend Server 7.0 Cluster system on Amazon AWS cloud services. Created scripts to help with deploying code to the cloud system and for scaling purposes",
+                "Built and maintained a Zend Server 7.0 Cluster system on AWS services. Created scripts to help with deploying code to the cloud system and for scaling purposes",
                 "Migrated company's and several clients' websites to a Wordpress multi-site system onto the cluster system",
                 "Assisted with performance and other improvements to existing sites for SEO purposes, such as setting up SSL and using CloudFlare to improve response times"
             ]
@@ -295,7 +295,7 @@
                 "improved a custom-built ad-delivery system that allowed clients to submit video and image ads that ran on screens in various local businesses",
                 "Programmed custom-built touchscreen headrests for interactive ad systems in taxis",
                 "Pushed for the switch from Subversion to Mercurial as the company's version control system",
-                "Administrating and developing in Salesforce"
+                "Administrating and interfacing with Salesforce"
             ]
         },
         {
