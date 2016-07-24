@@ -199,10 +199,7 @@
                     ]
                 },
                 {
-                    "skill": "Salesforce",
-                    "subskills": [
-                        "Apex"
-                    ]
+                    "skill": "Salesforce"
                 },
                 {
                     "skill": "CloudFlare"
