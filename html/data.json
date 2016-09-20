@@ -18,12 +18,11 @@
         },
         "contacts": [
             "262-204-7873",
-            "nickistre@gmail.com",
-            "jobs@nickistre.net"
+            "nickistre@gmail.com"
         ]
     },
 
-    "summary": "I am a programmer with a wide breadth of experience in server, network, and database administration. I look forward to learning and working with new technology to help customers to meet and exceed their needs.",
+    "summary": "Analytical Programmer possesses strong knowledge of PHP and Javascript programming. Specializes in back-end web, database, and API programming. Quickly masters new software packages and hardware technologies.",
 
     "skills": [
         {
@@ -230,21 +229,46 @@
 
     "work_experiences": [
         {
-            "company": "Global Payments Inc. (merged with Heartland Payment Systems, Inc. in April 2016)",
+            "company": "Global Payments Inc.",
+            "company_sub": "Merged with Heartland Payment Systems, Inc. in April 2016",
             "position": "Marketing Technology Developer",
             "location": "Atlanta, GA",
+            "is_current": true,
             "dates": {
                 "start": "July 2015",
-                "end": "Present"
+                "end": "Current"
             },
-            "description": "Worked remotely to build and maintain various websites for the Marketing Department and performed some Salesforce administration tasks for various needs.",
+            "description": "Working remotely to build and maintain several corporate WordPress and Zend Framework 2 sites.",
             "accomplishments": [
-                "Setup and maintained cloud servers on AWS",
-                "Converting Adobe PSD files from the designers to HTML5 pages on the sites",
-                "Worked on performance and security improvements of the websites",
-                "Built custom Wordpress plugins to show forms and handle form submissions",
-                "Setup forms to be able to submit via AJAX and added a custom-built honeypot anti-bot system",
-                "Administrated Salesforce and built code to interface with Salesforce API"
+                "Took ownership of AWS administration.",
+                "Assisted marketing campaigns by building landing pages from Adobe Photoshop files into HTML5 sites with jQuery and Bootstrap.",
+                "Improved security and performance of sites using code reviews and results of penetration testing.",
+                "Improved user experience on forms by building custom WordPress plugins that allowed for AJAX-style submits.",
+                "Combated spam on forms by implementing honeypot anti-bot system.",
+                "Administrated Salesforce and wrote code to interface with Salesforce API."
+            ],
+            "skills": [
+                "PHP 5",
+                "HTML5",
+                "Javascript",
+                "CSS3",
+                "Zend Framework 2",
+                "Doctrine 2",
+                "Wordpress",
+                "Amazon Web Services",
+                "Docker",
+                "composer",
+                "Bootstrap",
+                "jQuery",
+                "Sitecore",
+                "Git",
+                "Apache",
+                "MySQL",
+                "Linux",
+                "Salesforce Administration",
+                "Salesforce API",
+                "oAuth",
+                "Linux"
             ]
         },
         {
@@ -255,11 +279,25 @@
                 "start": "October 2014",
                 "end": "July 2015"
             },
-            "description": "Responsible for building highly complex software solutions using best-practices and patterns while acting as subject matter expert and team lead for software engineers across multiple large-scale IT projects.",
+            "description": "Building complex field ticketing and reporting systems using ExtJS,CouchDB, and Node.js.",
             "accomplishments": [
-                "Continued development of an ExtJS and CouchDB application for a sometimes-online field ticketing and reporting system",
-                "Created a library to allow for printable HTML reports in ExtJS",
-                "Assisted in creating processes using vagrant and grunt for local development and testing"
+                "Allowed for printable HTML reports in ExtJS by building custom library.",
+                "Improved local development and testing procedures by using Vagrant and Grunt.",
+                "Synchronized CouchDB and SQL Server data using LoopBack.",
+                "Stepped up to assist clients in saving time and money by applying creative and tested solutions to their problems."
+            ],
+            "skills": [
+                "Javascript",
+                "Node.js",
+                "Ext JS",
+                "grunt",
+                "Virtualbox",
+                "Vagrant",
+                "Docker",
+                "Mercurial",
+                "Git",
+                "nginx",
+                "CouchDB"
             ]
         },
         {
@@ -270,11 +308,29 @@
                 "start": "July 2014",
                 "end": "October 2014"
             },
-            "description": "Building PHP cluster server systems, create deployment code and processes, maintaining legacy systems, assisting and instructing other developers on current projects, and reorganizing and documenting of new and existing servers.",
+            "description": "Build and maintain Zend Server clusters for PHP applications. Create and document deployment code and processes. Maintain and update legacy systems.",
             "accomplishments": [
-                "Built and maintained a Zend Server 7.0 Cluster system on AWS services. Created scripts to help with deploying code to the cloud system and for scaling purposes",
-                "Migrated company's and several clients' websites to a Wordpress multi-site system onto the cluster system",
-                "Assisted with performance and other improvements to existing sites for SEO purposes, such as setting up SSL and using CloudFlare to improve response times"
+                "Helped out later engineers with excellent documentation of server environments.",
+                "Improved performance and SEO scoring of client sites by setting up SSL and using CloudFlare to improve response times.",
+                "Allowed CMS systems such as WordPress or Magento to run on clustering setups using NFS mounting and writing custom deployment code for Zend Server.",
+                "Saved on maintenance costs on clients' WordPress sites by migrating them to multi-site install on Zend Server cluster system."
+            ],
+            "skills": [
+                "Amazon Web Services",
+                "PHP 5",
+                "Zend Server",
+                "Wordpress",
+                "wp-cli",
+                "JAvascript",
+                "NFS",
+                "Linux",
+                "Vagrant",
+                "Virtualbox",
+                "cPanel",
+                "CloudFlare",
+                "BASH",
+                "Git",
+                "MySQL"
             ]
         },
         {
@@ -285,14 +341,53 @@
                 "start": "March 2009",
                 "end": "July 2014"
             },
-            "description": "Building systems for clients mainly using PHP, JavaScript, and Actionscript for web, desktop, and mobile applications.",
+            "description": "Build applications for clients using PHP, JavaScript, ActionScript, MySQL, PostgreSQL and other technologies.",
             "accomplishments": [
-                "Built a webservice and tablet system for use in evaluating nursing students",
-                "Completed a job-posting application site",
-                "improved a custom-built ad-delivery system that allowed clients to submit video and image ads that ran on screens in various local businesses",
-                "Programmed custom-built touchscreen headrests for interactive ad systems in taxis",
-                "Pushed for the switch from Subversion to Mercurial as the company's version control system",
-                "Administrating and interfacing with Salesforce"
+                "Built system for evaluating nursing students using Zend Framework for back-end code and ActionScript for tablet application. This included AJAX loading effects and JSON webservices in back-end.",
+                "Improved custom-built ad-delivery system to allow customers to submit and schedule video and image advertisements to show on screens at various locations.",
+                "Built software for custom-built touchscreen headrests for interactive ad system in taxis. This included creating customized Ubuntu setup to run on touchscreen and building systems to transmit advertisements and schedules to headrests and touches and logs from headrests back to servers through cellular networks.",
+                "Improved development processes by switching company's primary version control system from Subversion to Mercurial.",
+                "Administrating Salesforce and developing projects that interfaced with Salesforce API."
+
+            ],
+            "skills": [
+                "PHP",
+                "Zend Framework 1",
+                "Doctrine 2",
+                "Wordpress",
+                "Joomla",
+                "Horde",
+                "composer",
+                "jQuery",
+                "HTML5",
+                "Javascript",
+                "CSS3",
+                "Sencha Touch",
+                "PhoneGap/Cordova",
+                "Bootstrap",
+                "ActionScript/Flash/Flex",
+                "Mercurial",
+                "Git",
+                "Subversion",
+                "Apache",
+                "MySQL",
+                "PostgreSQL",
+                "Linux",
+                "VirtualBox",
+                "Vagrant",
+                "Postfix",
+                "cPanel",
+                "zPanel",
+                "Webmin",
+                "OpenVPN",
+                "Salesforce Administration",
+                "freeNAS",
+                "CentOS",
+                "Ubuntu",
+                "Team Management",
+                "Samba",
+                "Mobile Apps",
+                "pfSense"
             ]
         },
         {
@@ -303,17 +398,32 @@
                 "start": "December 2006",
                 "end"  : "December 2008"
             },
-            "description": "Duties mainly involved maintaining and extending a custom-built PHP website that provided accounting, ordering, and invoicing service for a large construction supply company, which also included the administration of the PostgreSQL database and CentOS systems powering the site.",
+            "description": "Maintain and extend PHP web application that provided accounting, ordering, and invoicing for major construction supply company. Administering PostgreSQL databases and CentOS servers.",
             "accomplishments": [
-                "Moved the codebase into a Subversion repository for better code maintenance",
-                "Improved security and reusability of project parts",
-                "Headed a team of five developers to expand the project",
-                "Added a user authentication and security model using an LDAP connection to Windows 2003 Server Active Directory",
-                "Optimized the data transfer code between the project and an accounting system running on an IBM AIX server",
-                "Converted the project from PHP on a CentOS server with PostgresSQL to PHP running on a Windows Server with SQL Server 2005"
+                "Improved code maintenance work by moving codebase into Subversion.",
+                "Led group of five developers in design and development of PHP web applications.",
+                "Added user authentication and security model by using LDAP to Active Directory.",
+                "Improved performance of database queries through analyzing and using indexes and query rewrites.",
+                "Improved synchronization performance between PostgreSQL database and accounting system running on IBM AIX system.",
+                "Converted project database from PostgreSQL to SQL Server 2005."
+
+            ],
+            "skills": [
+                "PHP",
+                "HTML5",
+                "Javascript",
+                "CSS",
+                "Subversion",
+                "Apache",
+                "PostgreSQL",
+                "SQL Server",
+                "Linux",
+                "CentOS",
+                "Team Management"
             ]
         },
         {
+            "disabled": true,
             "company": "Service Tool Company, LLC",
             "position": "System Analyst",
             "location": "New Iberia, LA",
@@ -336,11 +446,17 @@
         {
             "school": "University of Louisiana at Lafayette",
             "degree": "Bachelors of Science in Computer Science",
+            "hide_dates": true,
             "dates": {
                 "start": "1997",
                 "end"  : "2001"
             },
-            "description": "Magna Cum Laude with a 3.85 GPA, Honors Society member, Inline Hockey Club President"
+            "accomplishments": [
+                "Graduated Magna Cum Laude with a 3.85 GPA",
+                "Honors Society member",
+                "Inline Hockey Club President",
+                "Computational Science and Engineering coursework"
+            ]
         }
     ],
 
