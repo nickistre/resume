@@ -4,10 +4,10 @@
 
 # Run as root and in the root of the repo directory
 
-apt-get update
-apt-get install -y nodejs-legacy npm
+sudo apt-get update
+sudo apt-get install -y nodejs-legacy npm
 
-npm install -g bower
+sudo npm install -g bower
 
 pushd html
 
