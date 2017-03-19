@@ -252,7 +252,9 @@
                 "Converting Adobe PSD files from the designers to HTML5 pages on the sites",
                 "Setup and maintain webforms-to-Salesforce object submissions",
                 "Worked on performance and security improvements of the websites",
-                "Built custom Wordpress plugins to submit forms via AJAX and added honeypot anti-bot system",
+                "Built custom Wordpress plugins to show forms and handle form submissions",
+                "Setup forms to be able to submit via AJAX and added a custom-built honeypot anti-bot system",
+                "Administrated Salesforce and built code to interface with Salesforce API",
                 "Skills: PHP 5, MySQL, Wordpress, Amazon Web Services, Zend Framework 2, Linux, Apache 2, Javascript, jQuery, docker, Bootstrap, HTML5, Git"
             ]
         },
@@ -303,7 +305,7 @@
                 "improved a custom-built ad-delivery system that allowed clients to submit video and image ads that ran on screens in various local businesses",
                 "Programmed custom-built touchscreen headrests for interactive ad systems in taxis",
                 "Pushed for the switch from Subversion to Mercurial as the company's version control system",
-                "Administrating and developing in Salesforce",
+                "Administrating and interfacing with Salesforce",
                 "Skills: PHP 5, MySQL, Javascript, PostgreSQL, Amazon Web Services, DigitalOcean, Apache 2, Linux, BASH, HTML5, Python, C/C++, ActionScript/Flex, Subversion/SVN, Mercurial"
             ]
         },
